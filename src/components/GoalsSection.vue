@@ -6,7 +6,7 @@
         <div class="grid p-4" id="goals-text">
           <h2 class="uppercase font-bold">Goals and Aspirations</h2>
           <h2
-            class="lg:text-6xl text-4xl flex-warp font-bold my-4 lg:text-left text-center"
+            class="lg:text-6xl text-4xl flex-warp font-bold my-4 lg:text-left"
           >
             Design and build
           </h2>

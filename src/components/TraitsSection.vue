@@ -2,6 +2,7 @@
   <section class="bg-black text-white flex justify-center">
     <div class="container">
       <div class="grid grid-cols-2 gap-2">
+        <!-- COL -->
         <div>
           <!-- -->
           <div class="p-4 rounded-2xl border border-gray-800">

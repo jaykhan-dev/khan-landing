@@ -38,7 +38,13 @@ export default {
   background-repeat: no-repeat;
   height: 500px;
 }
+
 #mountain-cover {
   height: 500px;
+}
+@media screen and (max-width: 480px) {
+  #mountain-section {
+    height: 0px;
+  }
 }
 </style>
