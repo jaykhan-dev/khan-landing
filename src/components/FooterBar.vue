@@ -37,7 +37,9 @@
         </div>
       </div>
       <div class="flex justify-between p-4 border-t border-gray-800 mt-8">
-        <p class="font-bold">Built with Vue</p>
+        <a href="mailto:jaykhan.sound@gmail.com">
+          <p class="font-bold">jaykhan.sound@gmail.com</p>
+        </a>
         <div class="space-x-4 text-2xl">
           <a href="https://github.com/jaykhan-dev" class="hover:text-blue-600">
             <i class="fa-brands fa-github"></i>
