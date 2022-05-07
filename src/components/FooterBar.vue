@@ -60,6 +60,9 @@
           <a href="https://instagram.com/melange.labs">
             <i class="fa-brands fa-instagram"></i>
           </a>
+          <a href="https://www.linkedin.com/in/jkhanprofile">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </div>
       </div>
     </div>

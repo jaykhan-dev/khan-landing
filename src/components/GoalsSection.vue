@@ -25,7 +25,7 @@
               <h2 class="lg:text-2xl text-2xl my-2">Design process</h2>
               <p class="text-gray-500">
                 In order to solve a problem, first understand the user, find a
-                theme, develop the concept, create a prototype and finaly test
+                theme, develop the concept, create a prototype and finally test
                 it extensively.
               </p>
             </div>
