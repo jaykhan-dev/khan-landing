@@ -2,21 +2,18 @@
   <section class="flex justify-center bg-black text-white">
     <div class="container">
       <div class="grid place-items-center my-20">
-        <img
-          src="../assets/khaan-calligraphy.svg"
-          alt=""
-          width="100"
-          class="opacity-20"
-        />
+        <img src="../assets/fire-3.gif" alt="" width="500" class="" />
       </div>
-      <div class="grid lg:grid-cols-4 gap-4 justify-items-center p-4">
+      <div
+        class="grid lg:grid-cols-4 gap-4 justify-items-center p-4 lg:text-left text-center"
+      >
         <!-- COL -->
         <div class="grid place-items-center">
           <img src="../assets/jk-logo-white.svg" alt="" width="200" />
         </div>
         <!-- COL -->
         <div class="flex flex-col space-y-4">
-          <h2 class="font-bold text-2xl">Work</h2>
+          <h2 class="font-bold text-2xl text-blue-600">Work</h2>
           <a href="https://jkhan.live/work/uiux">UI/UX</a>
           <a href="https://jkhan.live/work/blockchain">Blockchain</a>
           <a href="https://jkhan.live/work/graphics">Graphics</a>
@@ -25,18 +22,18 @@
         </div>
         <!-- COL -->
         <div class="flex flex-col space-y-4">
-          <h2 class="font-bold text-2xl">Blog</h2>
-          <a href="https://jkhan.live/work/uiux">Blockchain</a>
-          <a href="https://jkhan.live/work/blockchain">Programming</a>
-          <a href="https://jkhan.live/work/graphics">Art</a>
-          <a href="https://jkhan.live/work/resume">Life</a>
+          <h2 class="font-bold text-2xl text-blue-600">Blog</h2>
+          <a href="https://jkhan.live/blog/blockchain">Blockchain</a>
+          <a href="https://jkhan.live/blog/programming">Programming</a>
+          <a href="https://jkhan.live/blog/">Art</a>
+          <a href="https://jkhan.live/blog/life">Life</a>
         </div>
         <!-- COL -->
         <div class="flex flex-col space-y-4">
-          <h2 class="font-bold text-2xl">Music</h2>
-          <a href="https://jkhan.live/work/uiux">Endeavr</a>
-          <a href="https://jkhan.live/work/blockchain">Soundcloud</a>
-          <a href="https://jkhan.live/work/graphics">Documentation</a>
+          <h2 class="font-bold text-2xl text-blue-600">Music</h2>
+          <a href="https://jkhan.live/work/blockchain/endeavr">Endeavr</a>
+          <a href="https://soundcloud.com/mixbase-cloud">Soundcloud</a>
+          <a href="https://jkhan.live/music">Documentation</a>
         </div>
       </div>
       <div class="flex justify-between p-4 border-t border-gray-800 mt-8">
@@ -58,7 +55,7 @@
 </template>
 
 <style>
-a :hover {
-  color: blue;
+a:hover {
+  color: deepskyblue;
 }
 </style>

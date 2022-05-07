@@ -4,8 +4,7 @@
       class="my-20 text-gray-800 uppercase text-8xl font-bold"
       id="top-scroll"
     >
-      Features - Tune in - Turn on - Make some noize - Disrupt the status quo -
-      Reimagine the future
+      simplicity | patience | compassion | empathy | creativity |
     </h1>
   </section>
 </template>
@@ -20,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
   //FEATURES
-  gsap.set("#top-scroll", { opacity: 0, x: 0 });
+  gsap.set("#top-scroll", { opacity: 0, x: 800 });
   gsap.to("#top-scroll", {
     scrollTrigger: {
       trigger: "#top-scroll",

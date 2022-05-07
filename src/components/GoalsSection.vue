@@ -1,0 +1,76 @@
+<template>
+  <section class="bg-black text-white flex justify-center">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 place-items-center">
+        <!-- COL -->
+        <div class="grid p-4" id="goals-text">
+          <h2 class="uppercase font-bold">Goals and Aspirations</h2>
+          <h2
+            class="lg:text-6xl text-4xl flex-warp font-bold my-4 lg:text-left text-center"
+          >
+            Design and build
+          </h2>
+          <div class="grid grid-cols-1 gap-2 lg:w-3/4">
+            <!-- -->
+            <div class="">
+              <h2 class="lg:text-2xl text-2xl my-2">Web3</h2>
+              <p class="text-gray-500">
+                The web is evolving and bring more autonomy into our lives with
+                regards to our data.
+              </p>
+            </div>
+            <!-- -->
+            <div class="">
+              <h2 class="lg:text-2xl text-2xl my-2">Design process</h2>
+              <p class="text-gray-500">
+                Find a theme, develop the concept and create a prototype.
+              </p>
+            </div>
+            <!-- -->
+            <div class="">
+              <h2 class="lg:text-2xl text-2xl my-2">Remote work</h2>
+              <p class="text-gray-500">
+                Working remotely is beneficial to the environment and also to
+                creativity.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- COL -->
+        <div class="grid place-items-center">
+          <img src="../assets/design.gif" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+// GSAP
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import { onMounted } from "@vue/runtime-core";
+gsap.registerPlugin(ScrollTrigger);
+export default {
+  setup() {
+    onMounted(() => {
+      //IMAGE
+      gsap.set("#goals-text", { x: -1000, opacity: 0 });
+      gsap.to("#goals-text", {
+        scrollTrigger: {
+          trigger: "#goals-text",
+          scrub: 1,
+          start: "top bottom",
+          end: "top center",
+        },
+        x: 1,
+        opacity: 1,
+        ease: "none",
+        duration: 3,
+      });
+    });
+  },
+};
+</script>
+
+<style></style>
