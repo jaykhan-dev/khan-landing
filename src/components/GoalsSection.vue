@@ -15,23 +15,26 @@
             <div class="">
               <h2 class="lg:text-2xl text-2xl my-2">Web3</h2>
               <p class="text-gray-500">
-                The web is evolving and bring more autonomy into our lives with
-                regards to our data.
+                The web is evolving and bringing more autonomy into our lives
+                with regards to our data. I use blockchain for my music projects
+                and to help clients adapt to the changing times.
               </p>
             </div>
             <!-- -->
             <div class="">
               <h2 class="lg:text-2xl text-2xl my-2">Design process</h2>
               <p class="text-gray-500">
-                Find a theme, develop the concept and create a prototype.
+                In order to solve a problem, first understand the user, find a
+                theme, develop the concept, create a prototype and finaly test
+                it extensively.
               </p>
             </div>
             <!-- -->
             <div class="">
               <h2 class="lg:text-2xl text-2xl my-2">Remote work</h2>
               <p class="text-gray-500">
-                Working remotely is beneficial to the environment and also to
-                creativity.
+                Working remotely is beneficial to the environment and helps with
+                creative endeavours.
               </p>
             </div>
           </div>

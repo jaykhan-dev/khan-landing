@@ -31,8 +31,18 @@
         <!-- COL -->
         <div class="flex flex-col space-y-4">
           <h2 class="font-bold text-2xl text-blue-600">Music</h2>
-          <a href="https://jkhan.live/work/blockchain/endeavr">Endeavr</a>
-          <a href="https://soundcloud.com/mixbase-cloud">Soundcloud</a>
+          <a
+            href="https://music-endeavr.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Endeavr</a
+          >
+          <a
+            href="https://soundcloud.com/mixbase-cloud"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Soundcloud</a
+          >
           <a href="https://jkhan.live/music">Documentation</a>
         </div>
       </div>
@@ -41,7 +51,7 @@
           <p class="font-bold">jaykhan.sound@gmail.com</p>
         </a>
         <div class="space-x-4 text-2xl">
-          <a href="https://github.com/jaykhan-dev" class="hover:text-blue-600">
+          <a href="https://github.com/jaykhan-dev">
             <i class="fa-brands fa-github"></i>
           </a>
           <a href="https://twitter.com/jaykhan_sound">
