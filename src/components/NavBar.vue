@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex justify-center fixed top-0 w-full bg-white shadow z-50 bg-black border-b border-gray-900 text-white"
+    class="flex justify-center fixed top-0 w-full shadow z-50 bg-black border-b border-gray-900 text-white"
   >
     <div
       class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center"
