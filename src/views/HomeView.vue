@@ -6,7 +6,7 @@ import BottomScroll from "../components/BottomScroll.vue";
 import HimalayanMountains from "../components/HimalayanMountains.vue";
 import GoalsSection from "../components/GoalsSection.vue";
 import TwitterEmbed from "../components/TwitterEmbed.vue";
-import FeaturedProjects from "../components/FeaturedProjects.vue";
+
 </script>
 
 <template>
@@ -17,7 +17,7 @@ import FeaturedProjects from "../components/FeaturedProjects.vue";
     <AboutSection />
     <BottomScroll />
     <GoalsSection />
-    <FeaturedProjects />
+
     <TwitterEmbed />
   </main>
 </template>
