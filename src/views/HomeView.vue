@@ -6,7 +6,6 @@ import BottomScroll from "../components/BottomScroll.vue";
 import HimalayanMountains from "../components/HimalayanMountains.vue";
 import GoalsSection from "../components/GoalsSection.vue";
 import TwitterEmbed from "../components/TwitterEmbed.vue";
-
 </script>
 
 <template>
@@ -17,7 +16,6 @@ import TwitterEmbed from "../components/TwitterEmbed.vue";
     <AboutSection />
     <BottomScroll />
     <GoalsSection />
-
     <TwitterEmbed />
   </main>
 </template>

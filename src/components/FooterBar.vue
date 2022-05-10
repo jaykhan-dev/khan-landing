@@ -46,11 +46,11 @@
           <a href="https://jkhan.live/music">Documentation</a>
         </div>
       </div>
-      <div class="flex justify-between p-4 border-t border-gray-800 mt-8">
+      <div class="lg:flex justify-between p-4 border-t border-gray-800 mt-8">
         <a href="mailto:jaykhan.sound@gmail.com">
-          <p class="font-bold">jaykhan.sound@gmail.com</p>
+          <p class="font-bold text-center">jaykhan.sound@gmail.com</p>
         </a>
-        <div class="space-x-4 text-2xl">
+        <div class="space-x-4 text-2xl flex justify-center">
           <a href="https://github.com/jaykhan-dev">
             <i class="fa-brands fa-github"></i>
           </a>
