@@ -37,45 +37,43 @@
 </template>
 
 <script>
+import { onMounted } from "vue";
 // GSAP
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import { onMounted } from "@vue/runtime-core";
+
 gsap.registerPlugin(ScrollTrigger);
-export default {
-  setup() {
-    onMounted(() => {
-      //IMAGE
-      gsap.set("#portrait", { scale: 0, opacity: 0 });
-      gsap.to("#portrait", {
-        scrollTrigger: {
-          trigger: "#portrait",
-          scrub: 1,
-          start: "top bottom",
-          end: "top center",
-        },
-        scale: 1,
-        opacity: 1,
-        ease: "none",
-        duration: 3,
-      });
-      //ABOUT TEXT
-      gsap.set("#about-text", { x: 1000, opacity: 0 });
-      gsap.to("#about-text", {
-        scrollTrigger: {
-          trigger: "#about-text",
-          scrub: 1,
-          start: "top center",
-          end: "top 75",
-        },
-        x: 0,
-        opacity: 1,
-        ease: "none",
-        duration: 3,
-      });
-    });
-  },
-};
+
+onMounted(() => {
+  //IMAGE
+  gsap.set("#portrait", { scale: 0, opacity: 0 });
+  gsap.to("#portrait", {
+    scrollTrigger: {
+      trigger: "#portrait",
+      scrub: 1,
+      start: "top bottom",
+      end: "top center",
+    },
+    scale: 1,
+    opacity: 1,
+    ease: "none",
+    duration: 3,
+  });
+  //ABOUT TEXT
+  gsap.set("#about-text", { x: 1000, opacity: 0 });
+  gsap.to("#about-text", {
+    scrollTrigger: {
+      trigger: "#about-text",
+      scrub: 1,
+      start: "top center",
+      end: "top 75",
+    },
+    x: 0,
+    opacity: 1,
+    ease: "none",
+    duration: 3,
+  });
+});
 </script>
 
 <style>

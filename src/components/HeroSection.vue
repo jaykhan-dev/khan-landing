@@ -17,7 +17,7 @@
         </p>
         <div class="grid lg:grid-cols-3 gap-4 my-8">
           <!-- COL -->
-          <a href="https://jkhan.live/work/uiux">
+          <a href="https://jkhan.netlify.app/work/uiux">
             <div
               class="grid place-items-center p-4 px-4 rounded-3xl border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
@@ -26,7 +26,7 @@
             </div>
           </a>
           <!-- COL -->
-          <a href="https://jkhan.live/work/blockchain">
+          <a href="https://jkhan.netlify.app/work/blockchain">
             <div
               class="grid place-items-center p-4 px-4 rounded-3xl border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
@@ -35,7 +35,7 @@
             </div>
           </a>
           <!-- COL -->
-          <a href="https://jkhan.live/work/graphics">
+          <a href="https://jkhan.netlify.app/work/graphics">
             <div
               class="grid place-items-center p-4 px-4 rounded-3xl border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >

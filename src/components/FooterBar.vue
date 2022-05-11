@@ -14,19 +14,19 @@
         <!-- COL -->
         <div class="flex flex-col space-y-4">
           <h2 class="font-bold text-2xl text-blue-600">Work</h2>
-          <a href="https://jkhan.live/work/uiux">UI/UX</a>
-          <a href="https://jkhan.live/work/blockchain">Blockchain</a>
-          <a href="https://jkhan.live/work/graphics">Graphics</a>
-          <a href="https://jkhan.live/work/resume">Resume</a>
-          <a href="https://jkhan.live/work/tech-stack">Tech Stack</a>
+          <a href="https://jkhan.netlify.app/work/uiux">UI/UX</a>
+          <a href="https://jkhan.netlify.app/work/blockchain">Blockchain</a>
+          <a href="https://jkhan.netlify.app/work/graphics">Graphics</a>
+          <a href="https://jkhan.netlify.app/work/resume">Resume</a>
+          <a href="https://jkhan.netlify.app/work/tech-stack">Tech Stack</a>
         </div>
         <!-- COL -->
         <div class="flex flex-col space-y-4">
           <h2 class="font-bold text-2xl text-blue-600">Blog</h2>
-          <a href="https://jkhan.live/blog/blockchain">Blockchain</a>
-          <a href="https://jkhan.live/blog/programming">Programming</a>
-          <a href="https://jkhan.live/blog/">Art</a>
-          <a href="https://jkhan.live/blog/life">Life</a>
+          <a href="https://jkhan.netlify.app/blog/blockchain">Blockchain</a>
+          <a href="https://jkhan.netlify.app/blog/programming">Programming</a>
+          <a href="https://jkhan.netlify.app/blog/">Art</a>
+          <a href="https://jkhan.netlify.app/blog/life">Life</a>
         </div>
         <!-- COL -->
         <div class="flex flex-col space-y-4">
@@ -43,7 +43,7 @@
             rel="noopener noreferrer"
             >Soundcloud</a
           >
-          <a href="https://jkhan.live/music">Documentation</a>
+          <a href="https://jkhan.netlify.app/music">Documentation</a>
         </div>
       </div>
       <div class="lg:flex justify-between p-4 border-t border-gray-800 mt-8">
