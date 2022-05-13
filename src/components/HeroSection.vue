@@ -11,6 +11,7 @@
           class="opacity-10 mt-20"
         />
         <h1 class="lg:text-8xl text-6xl font-bold my-8">J. Khan</h1>
+
         <p class="text-2xl p-4 leading-8 lg:w-1/2 text-center text-gray-600">
           Welcome to my portfolio. To see my work please go to the following
           pages:
@@ -49,7 +50,7 @@
   </section>
 </template>
 
-<script setup></script>
+<script></script>
 
 <style>
 #hero-section {
