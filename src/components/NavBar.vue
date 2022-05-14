@@ -5,8 +5,8 @@
     <div
       class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center"
     >
-      <div class="flex items-center justify-between">
-        <img src="../assets/jk-logo-white.svg" alt="" width="50" />
+      <div class="flex items-center justify-evenly">
+        <img src="../assets/jk-logo-white.svg" alt="" width="40" />
         <!-- MOBILE MENU BUTTON -->
         <div @click="toggleNav" class="flex md:hidden">
           <button
@@ -30,6 +30,28 @@
         <a href="https://jkhan.netlify.app/work">Projects</a>
         <a href="https://jkhan.netlify.app/work/resume">Resume</a>
         <a href="https://jkhan.netlify.app/blog">Blog</a>
+        <a
+          href="https://contra.com/jkhan_design"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="p-2 px-4 rounded bg-white text-black hover:bg-black hover:text-white duration-300 border animate-pulse"
+          >
+            Hire on Contra
+          </button>
+        </a>
+        <a
+          href="https://www.upwork.com/freelancers/~014489ba7a4c22b2bf?viewMode=1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="p-2 px-4 bg-green-600 rounded hover:bg-black duration-300 border animate-pulse shadow-mg shadow-white"
+          >
+            Hire on UpWork
+          </button>
+        </a>
       </div>
     </div>
   </nav>
@@ -44,6 +66,7 @@ export default {
     const toggleNav = () => (showMenu.value = !showMenu.value);
     return { showMenu, toggleNav };
   },
+  mounted() {},
 };
 </script>
 

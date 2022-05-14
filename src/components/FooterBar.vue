@@ -2,27 +2,6 @@
   <section class="flex justify-center bg-black text-white">
     <div class="container w-full">
       <div class="grid place-items-center my-20 w-full">
-        <div
-          class="grid place-items-center lg:grid-cols-2 lg:w-1/4 gap-4 mt-20 justify-center items-center"
-        >
-          <div
-            class="contra-hire-me-button"
-            data-analyticsUserId="8aeb570f-50a4-4fc8-af9d-8cbf5859e0bc"
-            data-theme="dark"
-            data-username="jkhan_design"
-          ></div>
-          <div>
-            <a
-              href="https://www.upwork.com/freelancers/~014489ba7a4c22b2bf?viewMode=1"
-            >
-              <button
-                class="p-2 px-4 bg-green-600 rounded-xl hover:bg-green-700 duration-300"
-              >
-                Hire on UpWork
-              </button>
-            </a>
-          </div>
-        </div>
         <img src="../assets/fire-3.gif" alt="" width="500" class="" />
 
         <div

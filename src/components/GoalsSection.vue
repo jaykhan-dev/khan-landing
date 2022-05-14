@@ -1,7 +1,7 @@
 <template>
   <section class="bg-black text-white flex justify-center">
     <div class="container">
-      <div class="grid lg:grid-cols-2 place-items-center">
+      <div class="grid lg:grid-cols-2 place-items-center mb-20">
         <!-- COL -->
         <div class="grid p-4" id="goals-text">
           <h2 class="uppercase font-bold">Goals and Aspirations</h2>
