@@ -41,7 +41,7 @@
           </div>
         </div>
         <div
-          class="grid place-items-center space-x-4 space-y-4 items-center text-4xl p-4 mt-8 lg:w-full"
+          class="grid place-items-center space-x-4 space-y-4 items-center lg:text-4xl p-4 mt-8 lg:w-full"
         >
           <img src="../assets/jk-logo-white.svg" alt="" width="100" />
           <a href="mailto:jaykhan.sound@gmail.com">

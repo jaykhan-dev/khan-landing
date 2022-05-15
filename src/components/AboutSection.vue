@@ -59,7 +59,7 @@ export default {
           trigger: "#about-text",
           scrub: 1,
           start: "top bottom",
-          end: "top center",
+          end: "top 75",
         },
         x: 0,
         opacity: 1,
