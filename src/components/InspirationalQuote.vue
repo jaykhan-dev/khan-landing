@@ -1,23 +1,40 @@
 <template>
   <section id="quote-section" class="bg-fixed">
-    <div class="flex justify-center items-center bg-black bg-opacity-70">
-      <div class="my-20 text-white grid place-items-center text-center p-2">
-        <h1 class="lg:text-4xl text-2xl lg:w-1/3">
-          “A man with outward courage dares to die; a man with inner courage
-          dares to live.”
-        </h1>
-        <p class="my-8 text-2xl font-bold">Lao Tzu</p>
-      </div>
+    <div
+      class="flex justify-center items-center bg-black bg-opacity-70 overflow-hidden truncate ..."
+    >
+      <h1
+        class="text-white text-opacity-20 uppercase text-8xl font-bold my-20"
+        id="words"
+      >
+        simplicity | patience | compassion | empathy | creativity | Music |
+        Blockchain | art | travel | web3 | vue js | frontend | design |
+      </h1>
     </div>
   </section>
 </template>
 
 <script>
+// GSAP
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
   mounted() {
-    let contra = document.createElement("script");
-    contra.setAttribute("src", "https://contra.com/static/embed/sdk.js");
-    document.head.appendChild(contra);
+    //WORDS
+    gsap.set("#words", { x: 0 });
+    gsap.to("#words", {
+      scrollTrigger: {
+        trigger: "#words",
+        scrub: 1,
+        start: "top bottom",
+        end: "top top",
+      },
+      x: -2000,
+      ease: "none",
+      duration: 3,
+    });
   },
 };
 </script>

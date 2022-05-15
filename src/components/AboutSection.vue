@@ -3,15 +3,8 @@
     <div class="container my-8">
       <div class="grid lg:grid-cols-2 place-items-center">
         <!-- COL1 -->
-        <div
-          class="grid place-items-center rounded-3xl bg-fixed p-2"
-          id="portrait"
-        >
-          <img
-            src="../assets/portrait-large-glow.png"
-            alt=""
-            class="rounded-3xl"
-          />
+        <div class="grid place-items-center rounded bg-fixed p-2" id="portrait">
+          <img src="../assets/portrait-large-glow.png" alt="" class="rounded" />
         </div>
         <!-- COL2 -->
         <div id="about" class="grid justify-items-center">
@@ -65,10 +58,23 @@ export default {
         scrollTrigger: {
           trigger: "#about-text",
           scrub: 1,
-          start: "top center",
-          end: "top 75",
+          start: "top bottom",
+          end: "top center",
         },
         x: 0,
+        opacity: 1,
+        ease: "none",
+        duration: 3,
+      });
+      //BLOB
+      gsap.set("#about", { opacity: 0 });
+      gsap.to("#about", {
+        scrollTrigger: {
+          trigger: "#about",
+          scrub: 1,
+          start: "top center",
+          end: "top top",
+        },
         opacity: 1,
         ease: "none",
         duration: 3,

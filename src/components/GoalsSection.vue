@@ -41,7 +41,13 @@
         </div>
         <!-- COL -->
         <div class="grid place-items-center">
-          <img src="../assets/design.gif" alt="" />
+          <lottie-player
+            src="https://assets9.lottiefiles.com/packages/lf20_51hxjnkl.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
         </div>
       </div>
     </div>

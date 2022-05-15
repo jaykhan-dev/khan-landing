@@ -4,16 +4,10 @@
       <div class="grid place-items-center my-20 w-full">
         <img src="../assets/fire-3.gif" alt="" width="500" class="" />
 
-        <div
-          class="grid lg:grid-cols-4 gap-4 justify-items-center p-4 lg:text-left text-center"
-        >
+        <div class="grid lg:grid-cols-3 gap-4 p-4 lg:text-left text-center">
           <!-- COL -->
-          <div class="grid place-items-center">
-            <img src="../assets/jk-logo-white.svg" alt="" width="200" />
-          </div>
-          <!-- COL -->
-          <div class="flex flex-col space-y-4">
-            <h2 class="font-bold text-2xl text-blue-600">Work</h2>
+          <div class="flex flex-col space-y-4 text-2xl">
+            <h2 class="font-bold uppercase text-blue-600 text-sm">Work</h2>
             <a href="https://jkhan.netlify.app/work/uiux">UI/UX</a>
             <a href="https://jkhan.netlify.app/work/blockchain">Blockchain</a>
             <a href="https://jkhan.netlify.app/work/graphics">Graphics</a>
@@ -21,16 +15,16 @@
             <a href="https://jkhan.netlify.app/work/tech-stack">Tech Stack</a>
           </div>
           <!-- COL -->
-          <div class="flex flex-col space-y-4">
-            <h2 class="font-bold text-2xl text-blue-600">Blog</h2>
+          <div class="flex flex-col space-y-4 text-2xl">
+            <h2 class="font-bold uppercase text-blue-600 text-sm">Blog</h2>
             <a href="https://jkhan.netlify.app/blog/blockchain">Blockchain</a>
             <a href="https://jkhan.netlify.app/blog/programming">Programming</a>
             <a href="https://jkhan.netlify.app/blog/">Art</a>
             <a href="https://jkhan.netlify.app/blog/life">Life</a>
           </div>
           <!-- COL -->
-          <div class="flex flex-col space-y-4">
-            <h2 class="font-bold text-2xl text-blue-600">Music</h2>
+          <div class="flex flex-col space-y-4 text-2xl">
+            <h2 class="font-bold uppercase text-blue-600 text-sm">Music</h2>
             <a
               href="https://music-endeavr.netlify.app"
               target="_blank"
@@ -47,12 +41,13 @@
           </div>
         </div>
         <div
-          class="lg:flex justify-between p-4 border-t border-gray-800 mt-8 lg:w-full"
+          class="grid place-items-center space-x-4 space-y-4 items-center text-4xl p-4 mt-8 lg:w-full"
         >
+          <img src="../assets/jk-logo-white.svg" alt="" width="100" />
           <a href="mailto:jaykhan.sound@gmail.com">
             <p class="font-bold text-center">jaykhan.sound@gmail.com</p>
           </a>
-          <div class="space-x-4 text-2xl flex justify-center">
+          <div class="space-x-4 text-4xl text-blue-500 flex justify-center">
             <a href="https://github.com/jaykhan-dev">
               <i class="fa-brands fa-github"></i>
             </a>
@@ -70,15 +65,34 @@
       </div>
     </div>
   </section>
+  <section class="bg-blue-600 text-white">
+    <div>
+      <Vue3Marquee class="overflow-hidden sm:w-full" id="marquee">
+        <h3
+          v-for="(word, index) in footerText"
+          :key="index"
+          :class="{ word: true, odd: index % 2 === 0, even: index % 2 === 1 }"
+          class="font-bold text-2xl text-white text-opacity-30 uppercase p-4"
+        >
+          {{ word }}
+        </h3>
+      </Vue3Marquee>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
-  mounted() {
-    let contra = document.createElement("script");
-    contra.setAttribute("src", "https://contra.com/static/embed/sdk.js");
-    document.head.appendChild(contra);
+  data() {
+    return {
+      footerText: [
+        "In the midst of chaos, there is also opportunity",
+        "Everyone sees what you appear to be, few experience what you really are",
+        "If you're afraid - don't do it, - if you're doing it - don't be afraid!",
+      ],
+    };
   },
+  mounted() {},
 };
 </script>
 

@@ -20,7 +20,7 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/uiux">
             <div
-              class="grid place-items-center p-4 px-4 rounded-3xl border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
+              class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <i class="fa-solid fa-object-group text-8xl"></i>
               <p class="my-4">UI/UX</p>
@@ -29,7 +29,7 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/blockchain">
             <div
-              class="grid place-items-center p-4 px-4 rounded-3xl border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
+              class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <i class="fa-solid fa-cubes text-8xl"></i>
               <p class="my-4">Blockchain</p>
@@ -38,7 +38,7 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/graphics">
             <div
-              class="grid place-items-center p-4 px-4 rounded-3xl border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
+              class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <i class="fa-solid fa-bezier-curve text-8xl"></i>
               <p class="my-4">Graphics</p>

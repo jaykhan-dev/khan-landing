@@ -24,7 +24,7 @@
       </div>
       <div
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-4 md:mt-0"
         @click="showMenu == !showMenu"
       >
         <a href="https://jkhan.netlify.app/work">Projects</a>
