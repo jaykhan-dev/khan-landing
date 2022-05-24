@@ -4,6 +4,9 @@ import "./index.css";
 import Vue3Lottie from "vue3-lottie";
 import VueSplide from "@splidejs/vue-splide";
 
+//MOTION
+import { MotionPlugin } from "@vueuse/motion";
+
 import App from "./App.vue";
 import router from "./router";
 
@@ -18,4 +21,5 @@ app.use(router);
 app.use(Vue3Lottie);
 app.use(VueSplide);
 app.use(Vue3Marquee);
+app.use(MotionPlugin);
 app.mount("#app");

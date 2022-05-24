@@ -1,7 +1,6 @@
 <script setup>
 import HeroSection from "../components/HeroSection.vue";
 import AboutSection from "../components/AboutSection.vue";
-
 import HimalayanMountains from "../components/HimalayanMountains.vue";
 import GoalsSection from "../components/GoalsSection.vue";
 import TwitterEmbed from "../components/TwitterEmbed.vue";

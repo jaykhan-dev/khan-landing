@@ -4,7 +4,10 @@
       <div class="grid place-items-center my-20 w-full">
         <img src="../assets/fire-3.gif" alt="" width="500" class="" />
 
-        <div class="grid lg:grid-cols-3 gap-4 p-4 lg:text-left text-center">
+        <div
+          class="grid lg:grid-cols-3 gap-4 p-4 lg:text-left text-center"
+          v-motion-fade
+        >
           <!-- COL -->
           <div class="flex flex-col space-y-4 text-2xl">
             <h2 class="font-bold uppercase text-blue-600 text-sm">Work</h2>
@@ -42,6 +45,7 @@
         </div>
         <div
           class="grid place-items-center space-x-4 space-y-4 items-center lg:text-4xl p-4 mt-8 lg:w-full"
+          v-motion-roll-right
         >
           <img src="../assets/jk-logo-white.svg" alt="" width="100" />
           <a href="mailto:jaykhan.sound@gmail.com">
@@ -71,7 +75,12 @@
         <h3
           v-for="(word, index) in footerText"
           :key="index"
-          :class="{ word: true, odd: index % 2 === 0, even: index % 2 === 1 }"
+          :class="{
+            word: true,
+            odd: index % 2 === 0,
+            even: index % 2 === 1,
+            duration: 30,
+          }"
           class="font-bold text-2xl text-white text-opacity-30 uppercase p-4"
         >
           {{ word }}
@@ -86,8 +95,8 @@ export default {
   data() {
     return {
       footerText: [
-        "In the midst of chaos, there is also opportunity",
-        "Everyone sees what you appear to be, few experience what you really are",
+        "There are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard.",
+        "Do the difficult things while they are easy and do the great things while they are small.",
         "If you're afraid - don't do it, - if you're doing it - don't be afraid!",
       ],
     };
