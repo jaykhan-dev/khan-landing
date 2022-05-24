@@ -9,16 +9,19 @@
           alt=""
           width="100"
           class="opacity-10 mt-20"
-          v-motion-fade
-          :delay="700"
         />
-        <h1 class="lg:text-8xl text-6xl font-bold my-8" v-motion-slide-right>
+        <h1
+          class="lg:text-8xl text-6xl font-bold my-8"
+          v-motion-fade
+          :delay="300"
+        >
           J. Khan
         </h1>
 
         <p
           class="text-2xl p-4 leading-8 lg:w-1/2 text-center text-gray-600"
-          v-motion-slide-left
+          v-motion-fade
+          :delay="400"
         >
           Welcome to my portfolio. To see my work please go to the following
           pages:
@@ -27,8 +30,8 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/uiux">
             <div
-              v-motion-roll-bottom
-              :delay="300"
+              v-motion-slide-bottom
+              :delay="200"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <i class="fa-solid fa-object-group text-8xl"></i>
@@ -38,8 +41,8 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/blockchain">
             <div
-              v-motion-roll-bottom
-              :delay="400"
+              v-motion-slide-bottom
+              :delay="300"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <i class="fa-solid fa-cubes text-8xl"></i>
@@ -49,8 +52,8 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/graphics">
             <div
-              v-motion-roll-bottom
-              :delay="500"
+              v-motion-slide-bottom
+              :delay="400"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <i class="fa-solid fa-bezier-curve text-8xl"></i>
@@ -67,7 +70,7 @@
 
 <style>
 #hero-section {
-  background-image: url("../assets/northern-lights-smooth-transition.gif");
+  background-image: url("../assets/blue-painting.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
