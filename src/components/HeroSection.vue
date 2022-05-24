@@ -1,15 +1,18 @@
 <template>
   <section class="bg-black text-white bg-fixed" id="hero-section">
     <div
-      class="grid place-items-center lg:h-screen bg-gradient-to-b from-blue-900/80 to-black"
+      class="grid place-items-center lg:h-screen bg-gradient-to-b from-black/90 to-black"
     >
       <div class="grid place-items-center">
-        <img
+        <!-- 
+          <img
           src="../assets/horse-head.svg"
           alt=""
           width="100"
           class="opacity-10 mt-20"
         />
+         -->
+
         <h1
           class="lg:text-8xl text-6xl font-bold my-8"
           v-motion-fade
@@ -72,7 +75,7 @@
 #hero-section {
   background-image: url("../assets/blue-painting.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 </style>

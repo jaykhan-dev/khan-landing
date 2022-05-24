@@ -6,7 +6,13 @@
       class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center"
     >
       <div class="flex items-center justify-evenly">
-        <img src="../assets/jk-logo-white.svg" alt="" width="40" />
+        <img
+          src="../assets/jk-logo-white.svg"
+          alt=""
+          width="40"
+          v-motion-pop
+          :delay="200"
+        />
         <!-- MOBILE MENU BUTTON -->
         <div @click="toggleNav" class="flex md:hidden">
           <button
@@ -25,6 +31,8 @@
       <div
         :class="showMenu ? 'flex' : 'hidden'"
         class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-4 md:mt-0"
+        v-motion-slide-right
+        :delay="400"
         @click="showMenu == !showMenu"
       >
         <a href="https://jkhan.netlify.app/work">Projects</a>
