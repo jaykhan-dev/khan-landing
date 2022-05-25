@@ -16,7 +16,7 @@
         <h1
           class="lg:text-8xl text-6xl font-bold my-8"
           v-motion-fade
-          :delay="300"
+          :delay="500"
         >
           J. Khan
         </h1>
@@ -37,7 +37,14 @@
               :delay="200"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
-              <i class="fa-solid fa-object-group text-8xl"></i>
+              <lottie-player
+                src="https://assets5.lottiefiles.com/packages/lf20_cuvw9mtg.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                style="width: 200px; height: 200px"
+              ></lottie-player>
               <p class="my-4">UI/UX</p>
             </div>
           </a>
@@ -48,7 +55,14 @@
               :delay="300"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
-              <i class="fa-solid fa-cubes text-8xl"></i>
+              <lottie-player
+                src="https://assets5.lottiefiles.com/packages/lf20_k0o4rppb.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                style="width: 200px; height: 200px"
+              ></lottie-player>
               <p class="my-4">Blockchain</p>
             </div>
           </a>
@@ -59,7 +73,14 @@
               :delay="400"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
-              <i class="fa-solid fa-bezier-curve text-8xl"></i>
+              <lottie-player
+                src="https://assets6.lottiefiles.com/packages/lf20_p2sacysm.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                style="width: 200px; height: 200px"
+              ></lottie-player>
               <p class="my-4">Graphics</p>
             </div>
           </a>
