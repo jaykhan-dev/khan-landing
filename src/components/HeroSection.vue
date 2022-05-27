@@ -33,7 +33,7 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/uiux">
             <div
-              v-motion-slide-bottom
+              v-motion-fade
               :delay="200"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
@@ -51,7 +51,7 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/blockchain">
             <div
-              v-motion-slide-bottom
+              v-motion-fade
               :delay="300"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
@@ -69,7 +69,7 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/graphics">
             <div
-              v-motion-slide-bottom
+              v-motion-fade
               :delay="400"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
