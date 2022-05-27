@@ -40,7 +40,7 @@ export default {
 </script>
 <style>
 #quote-section {
-  background-image: url("../assets/kashmir1.jpg");
+  background-image: url("../assets/kashmir-backyard-100.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
