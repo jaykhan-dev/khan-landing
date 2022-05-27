@@ -13,15 +13,39 @@
             id="about-text"
           >
             <h2 class="uppercase font-bold my-4">About</h2>
-            <h2 class="lg:text-6xl text-4xl font-bold">
-              Creative visual <br />designer
+            <h2
+              class="lg:text-6xl text-4xl flex-warp font-bold my-4 lg:text-left"
+            >
+              Design and build
             </h2>
-            <p class="leading-8 lg:w-3/4 my-12">
-              Design is my expertise. I have worked in several different mediums
-              like web, video, print, and social media. I am currently focused
-              on web3.
-              <br />
-            </p>
+            <div class="grid grid-cols-1 gap-2 lg:w-3/4">
+              <!-- -->
+              <div class="">
+                <h2 class="lg:text-2xl text-2xl my-2">Web3</h2>
+                <p class="text-gray-500">
+                  The web is evolving and bringing more autonomy into our lives
+                  with regards to our data. I use blockchain for my music
+                  projects and to help clients adapt to the changing times.
+                </p>
+              </div>
+              <!-- -->
+              <div class="">
+                <h2 class="lg:text-2xl text-2xl my-2">Design process</h2>
+                <p class="text-gray-500">
+                  In order to solve a problem, first understand the user, find a
+                  theme, develop the concept, create a prototype and finally
+                  test it extensively.
+                </p>
+              </div>
+              <!-- -->
+              <div class="">
+                <h2 class="lg:text-2xl text-2xl my-2">Remote work</h2>
+                <p class="text-gray-500">
+                  Working remotely is beneficial to the environment and helps
+                  with creative endeavours.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -62,19 +86,6 @@ export default {
           end: "top 75",
         },
         x: 0,
-        opacity: 1,
-        ease: "none",
-        duration: 3,
-      });
-      //BLOB
-      gsap.set("#about", { opacity: 0 });
-      gsap.to("#about", {
-        scrollTrigger: {
-          trigger: "#about",
-          scrub: 1,
-          start: "top center",
-          end: "top top",
-        },
         opacity: 1,
         ease: "none",
         duration: 3,

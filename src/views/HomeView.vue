@@ -2,9 +2,10 @@
 import HeroSection from "../components/HeroSection.vue";
 import AboutSection from "../components/AboutSection.vue";
 import HimalayanMountains from "../components/HimalayanMountains.vue";
-import GoalsSection from "../components/GoalsSection.vue";
+
 import TwitterEmbed from "../components/TwitterEmbed.vue";
 import InspirationalQuote from "../components/InspirationalQuote.vue";
+import ContraProfile from "../components/ContraProfile.vue";
 </script>
 
 <template>
@@ -12,7 +13,8 @@ import InspirationalQuote from "../components/InspirationalQuote.vue";
     <HeroSection />
     <HimalayanMountains />
     <AboutSection />
-    <GoalsSection />
+
+    <ContraProfile />
     <TwitterEmbed />
     <InspirationalQuote />
   </main>

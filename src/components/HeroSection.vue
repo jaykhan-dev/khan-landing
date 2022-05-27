@@ -14,7 +14,7 @@
          -->
 
         <h1
-          class="lg:text-8xl text-6xl font-bold my-8"
+          class="lg:text-8xl text-6xl font-bold mt-20"
           v-motion-fade
           :delay="500"
         >

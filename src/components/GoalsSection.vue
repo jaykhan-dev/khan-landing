@@ -42,11 +42,14 @@
         <!-- COL -->
         <div class="grid place-items-center">
           <lottie-player
-            src="https://assets9.lottiefiles.com/packages/lf20_51hxjnkl.json"
+            src="https://assets7.lottiefiles.com/packages/lf20_mjspbn0q.json"
             background="transparent"
             speed="1"
             loop
             autoplay
+            style="width: 350px; height: 350px"
+            v-motion-fade
+            :delay="500"
           ></lottie-player>
         </div>
       </div>
