@@ -1,7 +1,7 @@
 <template>
   <section id="quote-section" class="bg-fixed">
     <div
-      class="flex justify-center items-center bg-black bg-opacity-70 overflow-hidden truncate ..."
+      class="flex justify-center items-center bg-black bg-opacity-20 mix-blend-overlay overflow-hidden truncate ..."
     >
       <h1
         class="text-white text-opacity-20 uppercase text-8xl font-bold my-20"
@@ -40,7 +40,7 @@ export default {
 </script>
 <style>
 #quote-section {
-  background-image: url("../assets/steppe.jpg");
+  background-image: url("../assets/kashmir1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

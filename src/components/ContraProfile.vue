@@ -7,8 +7,9 @@
           <h3 class="font-bold uppercase my-4">Services</h3>
           <h2 class="lg:text-6xl text-4xl font-bold my-4">Freelance</h2>
           <p class="my-4 lg:w-3/5">
-            If you prefer to work with Fiat, I would recommend UpWork, and if
-            you prefer to use the blockchain, Contra is a good choice.
+            To make it easier for freelancing and contract work, I've included a
+            couple of platforms, Contra and Wpwork, for blockcain or fiat based
+            transactions.
           </p>
           <ul class="text-2xl space-y-4">
             <li class="text-gray-600 hover:text-white duration-300">
