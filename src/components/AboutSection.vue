@@ -37,14 +37,6 @@
                   test it extensively.
                 </p>
               </div>
-              <!-- -->
-              <div class="">
-                <h2 class="lg:text-2xl text-2xl my-2">Remote work</h2>
-                <p class="text-gray-500">
-                  Working remotely is beneficial to the environment and helps
-                  with creative endeavours.
-                </p>
-              </div>
             </div>
           </div>
         </div>

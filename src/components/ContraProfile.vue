@@ -8,7 +8,7 @@
           <h2 class="lg:text-6xl text-4xl font-bold my-4">Freelance</h2>
           <p class="my-4 lg:w-3/5">
             To make it easier for freelancing and contract work, I've included a
-            couple of platforms, Contra and Wpwork, for blockcain or fiat based
+            couple of platforms, Contra and Upwork, for blockchain or fiat based
             transactions.
           </p>
           <ul class="text-2xl space-y-4">
@@ -40,7 +40,7 @@
               <button
                 class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
               >
-                UpWork | USD
+                Upwork | USD
               </button>
             </a>
           </div>
