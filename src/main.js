@@ -3,6 +3,7 @@ import { createPinia } from "pinia";
 import "./index.css";
 import Vue3Lottie from "vue3-lottie";
 import VueSplide from "@splidejs/vue-splide";
+//import VueMeta from "vue-3-meta";
 
 //MOTION
 import { MotionPlugin } from "@vueuse/motion";
@@ -22,4 +23,5 @@ app.use(Vue3Lottie);
 app.use(VueSplide);
 app.use(Vue3Marquee);
 app.use(MotionPlugin);
+//app.use(VueMeta);
 app.mount("#app");

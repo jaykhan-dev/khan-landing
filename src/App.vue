@@ -1,6 +1,17 @@
-<script setup>
+<script>
 import NavBar from "./components/NavBar.vue";
 import FooterBar from "./components/FooterBar.vue";
+
+export default {
+  name: "app",
+  components: {
+    NavBar,
+    FooterBar,
+  },
+  metaInfo: {
+    title: "Jay Khan Portfolio",
+  },
+};
 </script>
 
 <template>

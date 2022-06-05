@@ -1,7 +1,7 @@
 <template>
   <section class="flex justify-center bg-black text-white">
     <div class="container w-full">
-      <div class="grid place-items-center my-20 w-full">
+      <div class="grid place-items-center w-full">
         <img src="../assets/fire-3.gif" alt="" width="500" class="" />
 
         <div
