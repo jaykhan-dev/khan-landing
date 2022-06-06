@@ -38,6 +38,7 @@
         <a href="https://jkhan.netlify.app/work">Projects</a>
         <a href="https://jkhan.netlify.app/work/resume">Resume</a>
         <a href="https://jkhan.netlify.app/blog">Blog</a>
+        <a href="https://jkhan.netlify.app/work/tech-stack">Tech</a>
         <a href="#services">
           <button
             class="p-2 px-4 rounded bg-white text-black hover:bg-black hover:text-white duration-300 border animate-pulse hover:scale-95"

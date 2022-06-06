@@ -7,7 +7,7 @@
           <img
             src="../assets/portrait-large-glow.png"
             alt=""
-            class="rounded hover:invert duration-300"
+            class="rounded hover:invert duration-300 hover:rotate-6"
           />
         </div>
         <!-- COL2 -->

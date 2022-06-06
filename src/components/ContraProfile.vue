@@ -26,8 +26,8 @@
                 <h2 class="lg:text-2xl text-2xl my-2">Design process</h2>
                 <p class="text-gray-500">
                   In order to solve a problem, I first try to understand the
-                  user, then find a theme, develop the concept, create a
-                  prototype and finally test it extensively.
+                  user, find a theme, develop the concept, create a prototype
+                  and then test it extensively.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@
           <h3 class="font-bold uppercase my-4">Services</h3>
           <h2 class="lg:text-6xl text-4xl font-bold my-4">Freelance</h2>
 
-          <ul class="text-2xl space-y-4">
+          <ul class="text-xl space-y-2">
             <li class="text-gray-600 hover:text-white duration-300">
               UI/UX Design
             </li>
@@ -46,7 +46,7 @@
               Landing Page
             </li>
             <li class="text-gray-600 hover:text-white duration-300">
-              WordPress and blockchain
+              WordPress | Webflow
             </li>
             <li class="text-gray-600 hover:text-white duration-300">
               Graphic Design
