@@ -46,7 +46,7 @@
               UI/UX design
             </li>
             <li class="text-gray-600 hover:text-white duration-300">
-              Content strategy
+              Graphic design
             </li>
           </ul>
           <div class="grid grid-cols-2 gap-4">
