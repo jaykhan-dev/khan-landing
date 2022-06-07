@@ -38,18 +38,15 @@
           <h3 class="font-bold uppercase my-4">Services</h3>
           <h2 class="lg:text-6xl text-4xl font-bold my-4">Freelance</h2>
 
-          <ul class="text-xl space-y-2">
+          <ul class="text-xl space-y-4">
             <li class="text-gray-600 hover:text-white duration-300">
-              UI/UX Design
+              Frontend development
             </li>
             <li class="text-gray-600 hover:text-white duration-300">
-              Landing Page
+              UI/UX design
             </li>
             <li class="text-gray-600 hover:text-white duration-300">
-              WordPress | Webflow
-            </li>
-            <li class="text-gray-600 hover:text-white duration-300">
-              Graphic Design
+              Content strategy
             </li>
           </ul>
           <div class="grid grid-cols-2 gap-4">
