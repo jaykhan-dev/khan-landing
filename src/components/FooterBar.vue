@@ -27,20 +27,31 @@
           </div>
           <!-- COL -->
           <div class="flex flex-col space-y-4 text-2xl">
-            <h2 class="font-bold uppercase text-blue-600 text-sm">Music</h2>
+            <h2 class="font-bold uppercase text-blue-600 text-sm">Sound</h2>
             <a
-              href="https://music-endeavr.netlify.app"
+              href="https://soundco.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
-              >Endeavr</a
+              >Sound Co.</a
             >
             <a
-              href="https://soundcloud.com/mixbase-cloud"
+              href="https://soundmoney.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
-              >Soundcloud</a
+              >Sound Money</a
             >
-            <a href="https://jkhan.netlify.app/music">Documentation</a>
+            <a
+              href="https://soundbit.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Sound Bit</a
+            >
+            <a
+              href="https://soundendeavr.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Sound Endeavr</a
+            >
           </div>
         </div>
         <div
