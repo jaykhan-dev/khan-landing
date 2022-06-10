@@ -23,7 +23,7 @@
                 >'Sound Bit'</a
               >
               <a
-                href="https://soundmoney.netlify.app"
+                href="https://jkhan.netlify.app/work/blockchain/affiliate"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="font-mono"
