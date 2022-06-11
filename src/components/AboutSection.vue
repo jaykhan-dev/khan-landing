@@ -1,26 +1,14 @@
 <template>
-  <section class="bg-black text-white flex justify-center" id="about-section">
-    <div class="container my-8">
-      <div class="grid place-items-center">
-        <!-- COL1 -->
-        <div class="grid place-items-center rounded bg-fixed p-2" id="portrait">
-          <img
-            src="../assets/portrait-large-glow.png"
-            alt=""
-            class="rounded duration-300 scale-50"
-          />
-        </div>
-        <!-- COL2
-        <div class="grid place-items-center">
-          <lottie-player
-            src="https://assets9.lottiefiles.com/packages/lf20_51hxjnkl.json"
-            background="transparent"
-            speed="1"
-            loop
-            autoplay
-          ></lottie-player>
-        </div>
-        -->
+  <section
+    class="bg-black text-white flex justify-center py-28"
+    id="about-section"
+  >
+    <div class="container skew" id="3d-scene">
+      <div class="grid place-items-center my-20" id="portrait">
+        <img src="../assets/portrait-large-glow.png" alt="" class="rounded" />
+        <img src="../assets/portrait-large-glow.png" alt="" class="rounded" />
+        <img src="../assets/portrait-large-glow.png" alt="" class="rounded" />
+        <img src="../assets/portrait-large-glow.png" alt="" class="rounded" />
       </div>
     </div>
   </section>
@@ -41,7 +29,7 @@ export default {
         scrollTrigger: {
           trigger: "#portrait",
           scrub: 1,
-          start: "top center",
+          start: "top bottom",
           end: "top 75",
         },
 
@@ -49,62 +37,46 @@ export default {
         ease: "none",
         duration: 3,
       });
-      // PORTRAIT 3d HOVER
-      let el = document.getElementById("portrait");
-
-      const height = el.clientHeight;
-      const width = el.clientWidth;
-
-      el.addEventListener("mousemove", handleMove);
-
-      function handleMove(e) {
-        const xVal = e.layerX;
-        const yVal = e.layerY;
-
-        const yRotation = 5 * ((xVal - width / 2) / width);
-        const xRotation = -5 * ((yVal - height / 2) / height);
-        const string =
-          "perspective(100px) scale(1.1) rotateX(" +
-          xRotation +
-          "deg) rotateY(" +
-          yRotation +
-          "deg)";
-
-        el.style.transform = string;
-      }
-
-      el.addEventListener("mouseout", function () {
-        el.style.transform =
-          "perspective(100px) scale(1) rotateX(0) rotateY(0)";
-      });
-
-      el.addEventListener("mousedown", function () {
-        el.style.transform =
-          "perspective(100px) scale(0.9) rotateX(0) rotateY(0)";
-      });
-
-      el.addEventListener("mouseup", function () {
-        el.style.transform =
-          "perspective(100px) scale(1.1) rotateX(0) rotateY(0)";
-      });
     });
   },
 };
 </script>
 
 <style>
-/*
-#portrait {
-  background-image: url("../assets/portrait-large-glow.png");
-  background-size: contain;
-  background-position: left;
-  background-repeat: no-repeat;
-  height: 600px;
-  width: 600px;
-}
-*/
 #portrait-overlay {
   height: 600px;
   width: 600px;
+}
+
+.skew {
+  position: relative;
+  width: 440px;
+  height: 180px;
+  margin-top: 150px;
+  background: #000;
+  transform: rotate(-30deg) skew(25deg) scale(0.8);
+  transition: 0.5s;
+}
+.skew img {
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.skew:hover img:nth-child(4) {
+  transform: translate(160px, -160px);
+  opacity: 1;
+}
+.skew:hover img:nth-child(3) {
+  transform: translate(120px, -120px);
+  opacity: 0.8;
+}
+.skew:hover img:nth-child(2) {
+  transform: translate(80px, -80px);
+  opacity: 0.6;
+}
+.skew:hover img:nth-child(1) {
+  transform: translate(40px, -40px);
+  opacity: 0.4;
 }
 </style>

@@ -3,7 +3,7 @@
     <div class="flex justify-center">
       <div class="lg:w-3/4 p-2 grid lg:grid-cols-2 gap-4 place-items-center">
         <!-- COl -->
-        <div id="about" class="">
+        <div id="about" class="relative">
           <div class="backdrop-blur-xl bg-black bg-opacity-70" id="about-text">
             <h2 class="uppercase font-bold my-4">About</h2>
             <h2
@@ -32,6 +32,14 @@
               </div>
             </div>
           </div>
+          <lottie-player
+            src="https://assets9.lottiefiles.com/packages/lf20_51hxjnkl.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            class="absolute top-0 opacity-10 z-10"
+          ></lottie-player>
         </div>
         <!-- COL -->
         <div class="py-20" id="freelance">
