@@ -28,12 +28,12 @@
           <!-- COL -->
           <div class="flex flex-col space-y-4 text-2xl">
             <h2 class="font-bold uppercase text-blue-600 text-sm">Sound</h2>
-            <a
+            <!-- <a
               href="https://soundco.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               >Sound Co.</a
-            >
+            > -->
             <a
               href="https://soundmoney.netlify.app"
               target="_blank"
