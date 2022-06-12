@@ -29,12 +29,10 @@
           Welcome to my portfolio. To see my work please go to the following
           pages:
         </p>
-        <div class="grid lg:grid-cols-3 gap-4 my-8">
+        <div class="grid lg:grid-cols-3 gap-4 my-8" v-motion-fade :delay="500">
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/uiux">
             <div
-              v-motion-fade
-              :delay="200"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <lottie-player
@@ -51,8 +49,6 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/blockchain">
             <div
-              v-motion-fade
-              :delay="300"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <lottie-player
@@ -69,8 +65,6 @@
           <!-- COL -->
           <a href="https://jkhan.netlify.app/work/graphics">
             <div
-              v-motion-fade
-              :delay="400"
               class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
             >
               <lottie-player
@@ -85,6 +79,17 @@
             </div>
           </a>
         </div>
+      </div>
+      <div>
+        <lottie-player
+          src="https://assets1.lottiefiles.com/packages/lf20_vfmyxu76.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          class="opacity-50"
+          style="width: 100px; height: 100px"
+        ></lottie-player>
       </div>
     </div>
   </section>
