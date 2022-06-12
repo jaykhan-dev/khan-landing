@@ -35,22 +35,22 @@
               >Sound Co.</a
             > -->
             <a
+              href="https://soundendeavr.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Sound Endeavr</a
+            >
+            <a
               href="https://jkhan.netlify.app/work/blockchain/affiliate"
               target="_blank"
               rel="noopener noreferrer"
               >Sound Money</a
             >
             <a
-              href="https://soundbit.netlify.app"
+              href="https://jkhan.netlify.app/work/blockchain/soundbit"
               target="_blank"
               rel="noopener noreferrer"
               >Sound Bit</a
-            >
-            <a
-              href="https://soundendeavr.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Sound Endeavr</a
             >
           </div>
         </div>

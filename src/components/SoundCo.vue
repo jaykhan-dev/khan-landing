@@ -16,7 +16,14 @@
             <p class="ml-8">apps = [</p>
             <div class="ml-2 flex flex-col">
               <a
-                href="https://soundbit.netlify.app"
+                href="https://soundendeavr.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-mono"
+                >'Sound Endeavr'</a
+              >
+              <a
+                href="https://jkhan.netlify.app/work/blockchain/soundbit"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="font-mono"
@@ -29,13 +36,7 @@
                 class="font-mono"
                 >'Sound Money</a
               >
-              <a
-                href="https://soundendeavr.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="font-mono"
-                >'Sound Endeavr'</a
-              >
+
               <a class="-translate-x-3">]</a>
             </div>
           </div>
