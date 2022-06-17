@@ -1,7 +1,7 @@
 <script>
 import HeroSection from "../components/HeroSection.vue";
-import AboutSection from "../components/AboutSection.vue";
-import InspirationalQuote from "../components/InspirationalQuote.vue";
+
+import ScrollingText from "../components/ScrollingText.vue";
 import ContraProfile from "../components/ContraProfile.vue";
 import TechStack from "../components/TechStack.vue";
 import SoundCo from "../components/SoundCo.vue";
@@ -11,13 +11,16 @@ export default {
   components: {
     HeroSection,
     ContraProfile,
-    AboutSection,
-    InspirationalQuote,
+
+    ScrollingText,
     TechStack,
     SoundCo,
   },
   metaInfo: {
-    title: "Jay Khan home page",
+    title: "Jay Khan",
+  },
+  mounted() {
+    window.scrollTo(0, 0);
   },
 };
 </script>
@@ -25,10 +28,9 @@ export default {
 <template>
   <main>
     <HeroSection />
-    <InspirationalQuote />
+    <ScrollingText />
     <ContraProfile />
     <TechStack />
     <SoundCo />
-    <AboutSection />
   </main>
 </template>

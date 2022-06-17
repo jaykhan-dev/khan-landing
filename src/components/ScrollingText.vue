@@ -7,8 +7,8 @@
         class="text-white text-opacity-20 uppercase text-8xl font-bold my-20"
         id="words"
       >
-        simplicity | patience | compassion | empathy | creativity | Music |
-        Blockchain | art | travel | web3 | vue js | frontend | design |
+        simplicity | art | blockchain | empathy | creativity | Music |
+        Blockchain | strategy | travel | web3 | vue js | frontend | design |
       </h1>
     </div>
   </section>
@@ -31,7 +31,7 @@ export default {
         start: "top bottom",
         end: "top top",
       },
-      x: -2000,
+      x: 2000,
       ease: "none",
       duration: 3,
     });

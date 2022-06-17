@@ -1,6 +1,6 @@
 <template>
-  <section id="soundco-bg" class="bg-gray-900 bg-fixed">
-    <div class="grid place-items-center text-white bg-black/80 py-20">
+  <section id="soundco-bg" class="bg-zinc-900">
+    <div class="grid place-items-center text-white py-20">
       <div class="soundco-content grid place-items-center">
         <img src="../assets/sound-logo-white.svg" alt="" class="" width="" />
         <p class="text-2xl text-center text-gray-400 lg:w-1/2">
@@ -19,21 +19,21 @@
                 href="https://soundendeavr.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="font-mono"
+                class="font-mono hover:text-blue-500 duration-300"
                 >'Sound Endeavr'</a
               >
               <a
                 href="https://jkhan.netlify.app/work/blockchain/soundbit"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="font-mono"
+                class="font-mono hover:text-blue-500 duration-300"
                 >'Sound Bit'</a
               >
               <a
                 href="https://soundmoney.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="font-mono"
+                class="font-mono hover:text-blue-500 duration-300"
                 >'Sound Money</a
               >
 
@@ -74,11 +74,4 @@ export default {
 };
 </script>
 
-<style>
-#soundco-bg {
-  background-image: url("../assets/tech-bg.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-</style>
+<style></style>

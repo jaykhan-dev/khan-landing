@@ -1,8 +1,5 @@
 <template>
-  <section
-    class="bg-black text-white flex justify-center py-28"
-    id="about-section"
-  >
+  <section class="bg-zinc-900 flex justify-center py-28" id="about-section">
     <div class="container skew" id="3d-scene">
       <div class="grid place-items-center my-20" id="portrait">
         <img src="../assets/portrait-large-glow.png" alt="" class="rounded" />
@@ -53,7 +50,7 @@ export default {
   width: 440px;
   height: 180px;
   margin-top: 150px;
-  background: #000;
+
   transform: rotate(-30deg) skew(25deg) scale(0.8);
   transition: 0.5s;
 }

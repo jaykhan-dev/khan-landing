@@ -1,83 +1,114 @@
 <template>
-  <section class="bg-black text-white" id="services">
+  <section class="bg-zinc-900 text-orange-100 py-20" id="services">
+    <div
+      class="grid place-items-center text-center py-20 bg-zinc-900 text-orange-100"
+    >
+      <h1 class="lg:text-8xl text-4xl lg:w-2/4">
+        I'm a designer based in Canada. I create user interfaces and digital
+        assets.
+      </h1>
+      <div class="grid lg:grid-cols-3 gap-4 my-8">
+        <!-- COL -->
+        <a href="https://jkhan.netlify.app/work/uiux">
+          <div
+            class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
+          >
+            <lottie-player
+              src="https://assets5.lottiefiles.com/packages/lf20_cuvw9mtg.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+              style="width: 200px; height: 200px"
+            ></lottie-player>
+            <p class="my-4">UI/UX</p>
+          </div>
+        </a>
+        <!-- COL -->
+        <a href="https://jkhan.netlify.app/work/blockchain">
+          <div
+            class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
+          >
+            <lottie-player
+              src="https://assets5.lottiefiles.com/packages/lf20_k0o4rppb.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+              style="width: 200px; height: 200px"
+            ></lottie-player>
+            <p class="my-4">Blockchain</p>
+          </div>
+        </a>
+        <!-- COL -->
+        <a href="https://jkhan.netlify.app/work/graphics">
+          <div
+            class="grid place-items-center p-4 px-4 rounded border border-gray-700 hover:border-gray-200 duration-300 hover:scale-95"
+          >
+            <lottie-player
+              src="https://assets6.lottiefiles.com/packages/lf20_p2sacysm.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+              style="width: 200px; height: 200px"
+            ></lottie-player>
+            <p class="my-4">Graphics</p>
+          </div>
+        </a>
+      </div>
+    </div>
     <div class="flex justify-center">
       <div class="lg:w-3/4 p-2 grid lg:grid-cols-2 gap-4 place-items-center">
         <!-- COl -->
         <div id="about" class="relative">
-          <div class="backdrop-blur-xl bg-black bg-opacity-70" id="about-text">
-            <h2 class="uppercase font-bold my-4">About</h2>
-            <h2
-              class="lg:text-6xl text-4xl flex-warp font-bold my-4 lg:text-left"
-            >
-              Design and build
-            </h2>
-            <div class="grid grid-cols-1 gap-2 lg:w-3/4">
-              <!-- -->
-              <div class="">
-                <h2 class="lg:text-2xl text-2xl my-2">Web3</h2>
-                <p class="text-gray-500">
-                  The web is evolving and bringing more autonomy into our lives
-                  with regards to our data. I use blockchain for my music
-                  projects and to help clients adapt to the changing times.
-                </p>
-              </div>
-              <!-- -->
-              <div class="">
-                <h2 class="lg:text-2xl text-2xl my-2">Design process</h2>
-                <p class="text-gray-500">
-                  In order to solve a problem, I first try to understand the
-                  user, find a theme, develop the concept, create a prototype
-                  and then test it extensively.
-                </p>
-              </div>
+          <div class="py-20" id="freelance">
+            <h3 class="font-bold uppercase my-4">Services</h3>
+            <h2 class="lg:text-6xl text-4xl font-bold my-4">Freelance</h2>
+
+            <ul class="text-xl space-y-4">
+              <li class="text-gray-600 hover:text-white duration-300">
+                Frontend development
+              </li>
+              <li class="text-gray-600 hover:text-white duration-300">
+                UI/UX design
+              </li>
+              <li class="text-gray-600 hover:text-white duration-300">
+                Graphic design
+              </li>
+            </ul>
+            <div class="grid grid-cols-2 gap-4">
+              <a href="https://contra.com/jkhan_design/services" class="">
+                <button
+                  class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
+                >
+                  Contra | USDC
+                </button>
+              </a>
+              <a
+                href="https://www.upwork.com/freelancers/~014489ba7a4c22b2bf?viewMode=1"
+                class=""
+              >
+                <button
+                  class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
+                >
+                  Upwork | USD
+                </button>
+              </a>
             </div>
           </div>
+        </div>
+        <!-- COL -->
+        <div>
           <lottie-player
             src="https://assets9.lottiefiles.com/packages/lf20_51hxjnkl.json"
             background="transparent"
-            speed="1"
+            speed="0.7"
             loop
             autoplay
-            class="absolute top-0 opacity-10 z-10"
+            class="opacity-50 z-10"
           ></lottie-player>
         </div>
-        <!-- COL -->
-        <div class="py-20" id="freelance">
-          <h3 class="font-bold uppercase my-4">Services</h3>
-          <h2 class="lg:text-6xl text-4xl font-bold my-4">Freelance</h2>
-
-          <ul class="text-xl space-y-4">
-            <li class="text-gray-600 hover:text-white duration-300">
-              Frontend development
-            </li>
-            <li class="text-gray-600 hover:text-white duration-300">
-              UI/UX design
-            </li>
-            <li class="text-gray-600 hover:text-white duration-300">
-              Graphic design
-            </li>
-          </ul>
-          <div class="grid grid-cols-2 gap-4">
-            <a href="https://contra.com/jkhan_design/services" class="">
-              <button
-                class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
-              >
-                Contra | USDC
-              </button>
-            </a>
-            <a
-              href="https://www.upwork.com/freelancers/~014489ba7a4c22b2bf?viewMode=1"
-              class=""
-            >
-              <button
-                class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
-              >
-                Upwork | USD
-              </button>
-            </a>
-          </div>
-        </div>
-
         <div class=""></div>
       </div>
     </div>
@@ -94,7 +125,7 @@ export default {
   setup() {
     onMounted(() => {
       //IMAGE
-      gsap.set("#freelance", { x: 500, opacity: 0 });
+      gsap.set("#freelance", { x: -500, opacity: 0 });
       gsap.to("#freelance", {
         scrollTrigger: {
           trigger: "#freelance",

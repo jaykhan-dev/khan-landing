@@ -1,18 +1,14 @@
 <template>
   <nav
-    class="flex justify-center fixed top-0 w-full shadow z-50 bg-black border-b border-gray-900 text-white"
+    class="flex justify-center fixed top-0 w-full text-orange-100 lg:mt-20 z-50"
+    v-motion-fade
+    :delay="1000"
   >
     <div
       class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center"
     >
       <div class="flex items-center justify-evenly">
-        <img
-          src="../assets/jk-logo-white.svg"
-          alt=""
-          width="40"
-          v-motion-pop
-          :delay="200"
-        />
+        <h1 class="text-2xl">jay</h1>
         <!-- MOBILE MENU BUTTON -->
         <div @click="toggleNav" class="flex md:hidden">
           <button
@@ -30,22 +26,24 @@
       </div>
       <div
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-4 md:mt-0"
-        v-motion-slide-right
-        :delay="400"
+        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-4 md:mt-0 text-orange-100"
         @click="showMenu == !showMenu"
       >
-        <a href="https://jkhan.netlify.app/work">Projects</a>
-        <a href="https://jkhan.netlify.app/work/resume">Resume</a>
-        <a href="https://jkhan.netlify.app/blog">Blog</a>
-        <a href="https://jkhan.netlify.app/work/tech-stack">Tech</a>
-        <a href="#services">
+        <a href="https://jkhan.netlify.app/work" class="nav-link">Projects</a>
+        <a href="https://jkhan.netlify.app/work/resume" class="nav-link"
+          >Resume</a
+        >
+        <a href="https://jkhan.netlify.app/blog" class="nav-link">Blog</a>
+        <a href="https://jkhan.netlify.app/work/tech-stack" class="nav-link"
+          >Tech</a
+        >
+        <!-- <a href="#services">
           <button
             class="p-2 px-4 rounded bg-white text-black hover:bg-black hover:text-white duration-300 border animate-pulse hover:scale-95"
           >
             Hire
           </button>
-        </a>
+        </a> -->
       </div>
     </div>
   </nav>
@@ -65,7 +63,20 @@ export default {
 </script>
 
 <style>
-a:hover {
-  color: dodgerblue;
+.nav-link {
+  text-decoration: none;
+  position: relative;
+}
+.nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid;
+  transition: 0.4s;
+}
+.nav-link:hover:after {
+  width: 100%;
 }
 </style>
