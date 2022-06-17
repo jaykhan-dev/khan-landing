@@ -2,7 +2,11 @@
   <section
     class="bg-zinc-900 text-orange-100 flex justify-center py-20 relative"
   >
-    <div class="lg:w-1/2 grid lg:grid-cols-4 grid-cols-2 gap-4 py-20">
+    <div class="lg:w-1/2 grid lg:grid-cols-6 grid-cols-2 gap-4 py-20">
+      <!-- COL -->
+      <div>
+        <img src="" alt="" />
+      </div>
       <!-- COL -->
       <div class="grid place-items-center" id="vue">
         <div class="scale-150 text-center">
@@ -31,6 +35,10 @@
           <p class="text-sm uppercase font-bold my-4">Figma</p>
         </div>
       </div>
+      <!-- COL -->
+      <div>
+        <img src="" alt="" />
+      </div>
     </div>
   </section>
 </template>
@@ -53,7 +61,7 @@ export default {
           start: "top bottom",
           end: "top top",
         },
-        y: -400,
+        y: -300,
         opacity: 1,
         ease: "none",
         duration: 3,

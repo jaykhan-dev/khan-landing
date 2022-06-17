@@ -2,10 +2,20 @@
   <section id="soundco-bg" class="bg-zinc-900">
     <div class="grid place-items-center text-white py-20">
       <div class="soundco-content grid place-items-center">
-        <img src="../assets/sound-logo-white.svg" alt="" class="" width="" />
-        <p class="text-2xl text-center text-gray-400 lg:w-1/2">
-          A suite of blockchain apps for financial freedom, affiliates,
-          knowledge, and art.
+        <img
+          src="../assets/enso-dragon-white.svg"
+          alt=""
+          class="blur-sm"
+          width=""
+          id="enso-dragon"
+        />
+        <img
+          src="../assets/sound-logo-white.svg"
+          alt="Sound Logo white"
+          width="300"
+        />
+        <p class="text-2xl text-center text-gray-400">
+          Blockchain apps using Bitcoin
         </p>
       </div>
 
@@ -56,7 +66,7 @@ export default {
   setup() {
     onMounted(() => {
       //IMAGE
-      gsap.set(".soundco-content", { y: 100, opacity: 0 });
+      gsap.set(".soundco-content", { y: 0, opacity: 0 });
       gsap.to(".soundco-content", {
         scrollTrigger: {
           trigger: ".soundco-content",
@@ -64,8 +74,24 @@ export default {
           start: "top bottom",
           end: "top top",
         },
-        y: -50,
+        y: -500,
         opacity: 1,
+        ease: "none",
+        duration: 3,
+      });
+
+      //enso dragon
+      gsap.set("#enso-dragon", { opacity: 0, scale: 2, y: 0 });
+      gsap.to("#enso-dragon", {
+        scrollTrigger: {
+          trigger: "#enso-dragon",
+          scrub: 1,
+          start: "top center",
+          end: "top 75",
+        },
+        scale: 1,
+        opacity: 0.2,
+        y: 200,
         ease: "none",
         duration: 3,
       });

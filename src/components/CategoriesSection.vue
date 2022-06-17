@@ -3,11 +3,11 @@
     <div
       class="grid place-items-center text-center py-20 bg-zinc-900 text-orange-100"
     >
-      <h1 class="lg:text-8xl text-4xl lg:w-2/4">
+      <h1 class="lg:text-8xl text-4xl lg:w-2/4" id="about-text">
         I'm a designer based in Canada. I create user interfaces and digital
         assets.
       </h1>
-      <div class="grid lg:grid-cols-3 gap-4 my-8">
+      <div class="grid lg:grid-cols-3 gap-4 my-8" id="categories">
         <!-- COL -->
         <a href="https://jkhan.netlify.app/work/uiux">
           <div
@@ -139,15 +139,30 @@ export default {
         duration: 3,
       });
       //ABOUT TEXT
-      gsap.set("#about-text", { x: -500, opacity: 0 });
+      gsap.set("#about-text", { y: 0, opacity: 0 });
       gsap.to("#about-text", {
         scrollTrigger: {
           trigger: "#about-text",
           scrub: 1,
           start: "top bottom",
-          end: "top center",
+          end: "top top",
         },
-        x: 0,
+        y: -100,
+        opacity: 1,
+        ease: "none",
+        duration: 3,
+      });
+
+      //Categories
+      gsap.set("#categories", { y: 0, opacity: 0 });
+      gsap.to("#categories", {
+        scrollTrigger: {
+          trigger: "#categories",
+          scrub: 1,
+          start: "top bottom",
+          end: "top top",
+        },
+        y: 50,
         opacity: 1,
         ease: "none",
         duration: 3,

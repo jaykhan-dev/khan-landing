@@ -2,7 +2,7 @@
 import HeroSection from "../components/HeroSection.vue";
 
 import ScrollingText from "../components/ScrollingText.vue";
-import ContraProfile from "../components/ContraProfile.vue";
+import CategoriesSection from "../components/CategoriesSection.vue";
 import TechStack from "../components/TechStack.vue";
 import SoundCo from "../components/SoundCo.vue";
 
@@ -10,7 +10,7 @@ export default {
   name: "HomeView",
   components: {
     HeroSection,
-    ContraProfile,
+    CategoriesSection,
 
     ScrollingText,
     TechStack,
@@ -29,7 +29,7 @@ export default {
   <main>
     <HeroSection />
     <ScrollingText />
-    <ContraProfile />
+    <CategoriesSection />
     <TechStack />
     <SoundCo />
   </main>
