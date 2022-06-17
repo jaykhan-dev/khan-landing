@@ -4,12 +4,9 @@
     style="height: 100vh"
     class=""
   >
-    <section
-      class="bg-zinc-900/50 text-orange-100 lg:h-screen"
-      id="hero-section"
-    >
+    <section class="bg-zinc-900/50 text-orange-100 h-screen" id="hero-section">
       <div class="grid place-items-center" v-motion-slide-bottom :delay="1000">
-        <div class="my-20">
+        <div class="my-20" id="hero-content">
           <h1 class="large-text">Jay Khan</h1>
           <h1 class="lg:text-5xl text-center">Portfolio</h1>
         </div>
@@ -37,7 +34,21 @@ import { onMounted } from "@vue/runtime-core";
 gsap.registerPlugin(ScrollTrigger);
 export default {
   setup() {
-    onMounted(() => {});
+    onMounted(() => {
+      //WORDS
+      gsap.set("#hero-content", { y: 50 });
+      gsap.to("#hero-content", {
+        scrollTrigger: {
+          trigger: "#hero-content",
+          scrub: 1,
+          start: "top 75",
+          end: "top top",
+        },
+        y: 200,
+        ease: "none",
+        duration: 3,
+      });
+    });
   },
 };
 </script>

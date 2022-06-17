@@ -8,7 +8,7 @@
       class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center"
     >
       <div class="flex items-center justify-evenly">
-        <h1 class="text-2xl">jay</h1>
+        <img src="../assets/jk-logo-white.svg" alt="Jay Khan Logo" width="50" />
         <!-- MOBILE MENU BUTTON -->
         <div @click="toggleNav" class="flex md:hidden">
           <button

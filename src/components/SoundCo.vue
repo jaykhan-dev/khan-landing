@@ -1,11 +1,11 @@
 <template>
   <section id="soundco-bg" class="bg-zinc-900">
-    <div class="grid place-items-center text-white py-20">
+    <div class="grid place-items-center text-white">
       <div class="soundco-content grid place-items-center">
         <img
           src="../assets/enso-dragon-white.svg"
           alt=""
-          class="blur-sm"
+          class="blur-md"
           width=""
           id="enso-dragon"
         />
@@ -51,6 +51,16 @@
             </div>
           </div>
         </div>
+        <div>
+          <lottie-player
+            src="https://assets1.lottiefiles.com/private_files/lf30_h03e9pog.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            class="opacity-50"
+          ></lottie-player>
+        </div>
       </div>
     </div>
   </section>
@@ -66,7 +76,7 @@ export default {
   setup() {
     onMounted(() => {
       //IMAGE
-      gsap.set(".soundco-content", { y: 0, opacity: 0 });
+      gsap.set(".soundco-content", { y: 20, opacity: 0 });
       gsap.to(".soundco-content", {
         scrollTrigger: {
           trigger: ".soundco-content",
@@ -74,7 +84,7 @@ export default {
           start: "top bottom",
           end: "top top",
         },
-        y: -500,
+        y: -100,
         opacity: 1,
         ease: "none",
         duration: 3,
@@ -86,12 +96,12 @@ export default {
         scrollTrigger: {
           trigger: "#enso-dragon",
           scrub: 1,
-          start: "top center",
-          end: "top 75",
+          start: "top bottom",
+          end: "top top",
         },
         scale: 1,
         opacity: 0.2,
-        y: 200,
+        y: 300,
         ease: "none",
         duration: 3,
       });

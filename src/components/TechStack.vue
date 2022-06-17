@@ -5,7 +5,12 @@
     <div class="lg:w-1/2 grid lg:grid-cols-6 grid-cols-2 gap-4 py-20">
       <!-- COL -->
       <div>
-        <img src="" alt="" />
+        <img
+          src="../assets/cat-bw.png"
+          alt="cat graphic"
+          class="blur-md opacity-20 scale-150 lg:translate-x-20"
+          id="cat-graphic"
+        />
       </div>
       <!-- COL -->
       <div class="grid place-items-center" id="vue">
@@ -37,7 +42,12 @@
       </div>
       <!-- COL -->
       <div>
-        <img src="" alt="" />
+        <img
+          src="../assets/bass_clef.png"
+          alt="bass clef graphic"
+          class="blur-sm scale-150 opacity-20 lg:-translate-x-20"
+          id="bass-clef"
+        />
       </div>
     </div>
   </section>
@@ -108,6 +118,34 @@ export default {
         },
         y: -100,
         opacity: 1,
+        ease: "none",
+        duration: 3,
+      });
+
+      //IMAGE
+      gsap.set("#cat-graphic", { y: 15 });
+      gsap.to("#cat-graphic", {
+        scrollTrigger: {
+          trigger: "#cat-graphic",
+          scrub: 1,
+          start: "top bottom",
+          end: "top top",
+        },
+        y: -150,
+        ease: "none",
+        duration: 3,
+      });
+
+      //IMAGE
+      gsap.set("#bass-clef", { y: 15 });
+      gsap.to("#bass-clef", {
+        scrollTrigger: {
+          trigger: "#bass-clef",
+          scrub: 1,
+          start: "top bottom",
+          end: "top top",
+        },
+        y: -200,
         ease: "none",
         duration: 3,
       });
