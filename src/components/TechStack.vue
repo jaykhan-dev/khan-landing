@@ -76,7 +76,7 @@ export default {
           start: "top bottom",
           end: "top top",
         },
-        y: -10,
+        y: -100,
         opacity: 1,
         ease: "none",
         duration: 3,
@@ -108,21 +108,6 @@ export default {
         },
         y: -100,
         opacity: 1,
-        ease: "none",
-        duration: 3,
-      });
-
-      //IMAGE
-      gsap.set("#guitar-graphic", { y: 0 });
-      gsap.to("#guitar-graphic", {
-        scrollTrigger: {
-          trigger: "#guitar-graphic",
-          scrub: 1,
-          start: "top bottom",
-          end: "top top",
-        },
-        y: -200,
-
         ease: "none",
         duration: 3,
       });

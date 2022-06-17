@@ -15,6 +15,9 @@ import router from "./router";
 import Vue3Marquee from "vue3-marquee";
 import "vue3-marquee/dist/style.css";
 
+//background video
+import { Plugin } from "vue-responsive-video-background-player";
+
 const app = createApp(App);
 
 app.use(createPinia());
@@ -23,5 +26,6 @@ app.use(Vue3Lottie);
 app.use(VueSplide);
 app.use(Vue3Marquee);
 app.use(MotionPlugin);
+app.use(Plugin);
 //app.use(VueMeta);
 app.mount("#app");
