@@ -59,7 +59,7 @@
           <p>Twitter</p>
         </a>
         <a
-          href="https://instagram.com/melange.labs"
+          href="https://instagram.com/jkhan.sound"
           class="flex space-x-4 items-center footer-link"
         >
           <i class="fa-brands fa-instagram"></i>
