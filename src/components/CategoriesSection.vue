@@ -3,10 +3,10 @@
     <div
       class="grid place-items-center text-center py-20 bg-zinc-900 text-orange-100"
     >
-      <h1 class="lg:text-8xl text-4xl lg:w-2/4" id="about-text">
+      <h2 class="lg:text-8xl text-4xl lg:w-2/4 font-bold" id="about-text">
         I'm a designer based in Canada. I create user interfaces and digital
         assets.
-      </h1>
+      </h2>
       <div class="grid lg:grid-cols-3 gap-4 my-8" id="categories">
         <!-- COL -->
         <a href="https://jkhan.netlify.app/work/uiux">

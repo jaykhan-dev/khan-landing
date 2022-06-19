@@ -8,7 +8,7 @@
       <div class="grid place-items-center" v-motion-slide-bottom :delay="1000">
         <div class="my-20" id="hero-content">
           <h1 class="large-text">Jay Khan</h1>
-          <h1 class="lg:text-5xl text-center">Portfolio</h1>
+          <h2 class="lg:text-5xl text-center font-bold">Portfolio</h2>
         </div>
         <div>
           <lottie-player

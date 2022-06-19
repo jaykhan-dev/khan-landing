@@ -24,7 +24,7 @@
       class="grid lg:grid-cols-2 place-items-center bg-zinc-900 text-orange-100 lg:p-20"
     >
       <div class="grid content-between footer-content lg:p-0 p-8">
-        <h1 class="lg:text-9xl text-6xl">Bringing ideas to life.</h1>
+        <h2 class="lg:text-9xl text-6xl">Bringing ideas to life.</h2>
         <p class="lg:place-self-center my-20 lg:w-1/4">
           Feel free to reach out if you want to collaborate, hire, or just chat.
         </p>
@@ -32,11 +32,11 @@
       <div class="grid text-right" id="footer-right-col">
         <AboutSection />
         <a href="mailto:jaykhan.sound@gmail.com">
-          <h1
+          <h2
             class="font-bold text-center lg:text-5xl text-xl footer-link lg:mt-2 mt-8"
           >
             jaykhan.sound@gmail.com
-          </h1>
+          </h2>
         </a>
       </div>
     </div>
