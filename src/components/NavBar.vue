@@ -29,14 +29,10 @@
         class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-4 md:mt-0 text-orange-100"
         @click="showMenu == !showMenu"
       >
-        <a href="https://jkhan.netlify.app/work" class="nav-link">Projects</a>
-        <a href="https://jkhan.netlify.app/work/resume" class="nav-link"
-          >Resume</a
-        >
-        <a href="https://jkhan.netlify.app/blog" class="nav-link">Blog</a>
-        <a href="https://jkhan.netlify.app/work/tech-stack" class="nav-link"
-          >Tech</a
-        >
+        <a href="https://jaykhan.live/work" class="nav-link">Projects</a>
+        <a href="https://jaykhan.live/work/resume" class="nav-link">Resume</a>
+        <a href="https://jaykhan.live/blog" class="nav-link">Blog</a>
+        <a href="https://jaykhan.live/work/tech-stack" class="nav-link">Tech</a>
         <!-- <a href="#services">
           <button
             class="p-2 px-4 rounded bg-white text-black hover:bg-black hover:text-white duration-300 border animate-pulse hover:scale-95"
