@@ -32,13 +32,7 @@
                 class="font-mono hover:text-blue-500 duration-300"
                 >'Sound Endeavr'</a
               >
-              <!-- <a
-                href="https://jkhan.netlify.app/work/blockchain/soundbit"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="font-mono hover:text-blue-500 duration-300"
-                >'Sound Bit'</a
-              > -->
+
               <a
                 href="https://soundmoney.netlify.app"
                 target="_blank"
@@ -46,7 +40,13 @@
                 class="font-mono hover:text-blue-500 duration-300"
                 >'Sound Money</a
               >
-
+              <a
+                href="https://wooway.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-mono hover:text-blue-500 duration-300"
+                >'WooWay'</a
+              >
               <a class="-translate-x-3">]</a>
             </div>
           </div>
