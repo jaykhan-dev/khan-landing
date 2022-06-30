@@ -33,6 +33,7 @@ html {
   padding: 0px;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  cursor: crosshair;
 }
 a,
 h2,
