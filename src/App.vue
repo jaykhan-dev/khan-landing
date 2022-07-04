@@ -44,4 +44,27 @@ p {
 h1 {
   font-family: "Uncial Antiqua", cursive;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blanchedalmond;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(9, 208, 243);
+}
 </style>
