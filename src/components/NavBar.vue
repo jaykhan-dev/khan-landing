@@ -30,16 +30,9 @@
         @click="showMenu == !showMenu"
       >
         <a href="https://jaykhan.live/work" class="nav-link">Projects</a>
-        <a href="https://jaykhan.live/work/resume" class="nav-link">Resume</a>
+        <a href="https://jaykhan.live/about/resume" class="nav-link">Resume</a>
         <a href="https://jaykhan.live/blog" class="nav-link">Blog</a>
-        <a href="https://jaykhan.live/work/tech-stack" class="nav-link">Tech</a>
-        <!-- <a href="#services">
-          <button
-            class="p-2 px-4 rounded bg-white text-black hover:bg-black hover:text-white duration-300 border animate-pulse hover:scale-95"
-          >
-            Hire
-          </button>
-        </a> -->
+        <a href="https://jaykhan.live/about/tech" class="nav-link">Tech</a>
       </div>
     </div>
   </nav>
