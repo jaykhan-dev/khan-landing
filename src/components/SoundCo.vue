@@ -26,7 +26,7 @@
             <p class="ml-8">apps = [</p>
             <div class="ml-2 flex flex-col">
               <a
-                href="https://soundendeavr.netlify.app"
+                href="https://endeavr.pages.dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="font-mono hover:text-blue-500 duration-300"
