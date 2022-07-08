@@ -30,7 +30,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="font-mono hover:text-blue-500 duration-300"
-                >'Sound Endeavr'</a
+                >'Endeavr'</a
               >
 
               <a
