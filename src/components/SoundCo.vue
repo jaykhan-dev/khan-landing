@@ -41,11 +41,11 @@
                 >'Sound Money</a
               >
               <a
-                href="https://wooway.netlify.app"
+                href="https://melangelabs.pages.dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="font-mono hover:text-blue-500 duration-300"
-                >'WooWay'</a
+                >'Melange Labs'</a
               >
               <a class="-translate-x-3">]</a>
             </div>
