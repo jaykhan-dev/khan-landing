@@ -41,7 +41,7 @@
                 >'Sound Money</a
               >
               <a
-                href="https://melangelabs.pages.dev"
+                href="https://melange.pages.dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="font-mono hover:text-blue-500 duration-300"
