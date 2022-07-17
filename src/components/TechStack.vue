@@ -2,7 +2,7 @@
   <section
     class="bg-zinc-900 text-orange-100 flex justify-center py-20 relative"
   >
-    <div class="lg:w-1/2 grid lg:grid-cols-6 grid-cols-2 gap-4 py-20">
+    <div class="lg:w-1/2 grid lg:grid-cols-6 grid-cols-2 gap-4 py-10">
       <!-- COL -->
       <div>
         <img

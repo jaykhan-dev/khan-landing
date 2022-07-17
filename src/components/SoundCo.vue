@@ -6,7 +6,7 @@
           src="../assets/enso-dragon-white.svg"
           alt=""
           class="blur-md"
-          width=""
+          width="350"
           id="enso-dragon"
         />
         <img
@@ -15,8 +15,7 @@
           width="300"
         />
         <p class="text-2xl text-center text-gray-400 lg:w-1/2">
-          Blockchain apps using Bitcoin. Click on the names below to see the
-          prototypes.
+          Blockchain apps. Click on the names below to see the prototypes.
         </p>
       </div>
 
@@ -93,7 +92,7 @@ export default {
       });
 
       //enso dragon
-      gsap.set("#enso-dragon", { opacity: 0, scale: 2, y: 0 });
+      gsap.set("#enso-dragon", { opacity: 0, scale: 1.2, y: 0 });
       gsap.to("#enso-dragon", {
         scrollTrigger: {
           trigger: "#enso-dragon",
