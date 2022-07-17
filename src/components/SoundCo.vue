@@ -14,8 +14,9 @@
           alt="Sound Logo white"
           width="300"
         />
-        <p class="text-2xl text-center text-gray-400">
-          Blockchain apps using Bitcoin
+        <p class="text-2xl text-center text-gray-400 lg:w-1/2">
+          Blockchain apps using Bitcoin. Click on the names below to see the
+          prototypes.
         </p>
       </div>
 
@@ -33,11 +34,11 @@
                 >'Melange Labs'</a
               >
               <a
-                href="https://endeavr.pages.dev"
+                href="https://songbookapp.pages.dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="font-mono hover:text-blue-500 duration-300"
-                >'Endeavr'</a
+                >'SongBook'</a
               >
 
               <a
