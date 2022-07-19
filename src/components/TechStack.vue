@@ -2,16 +2,7 @@
   <section
     class="bg-zinc-900 text-orange-100 flex justify-center py-20 relative"
   >
-    <div class="lg:w-1/2 grid lg:grid-cols-6 grid-cols-2 gap-4 py-10">
-      <!-- COL -->
-      <div>
-        <img
-          src="../assets/cat-bw.png"
-          alt="cat graphic"
-          class="blur-md opacity-20 scale-150 lg:translate-x-20"
-          id="cat-graphic"
-        />
-      </div>
+    <div class="lg:w-1/2 grid lg:grid-cols-5 grid-cols-2 gap-4 py-10">
       <!-- COL -->
       <div class="grid place-items-center" id="vue">
         <div class="scale-150 text-center">
@@ -41,13 +32,13 @@
         </div>
       </div>
       <!-- COL -->
-      <div>
+      <div class="grid place-items-center" id="django">
         <img
-          src="../assets/bass_clef.png"
+          src="../assets/django.png"
           alt="bass clef graphic"
-          class="blur-sm scale-150 opacity-20 lg:-translate-x-20"
-          id="bass-clef"
+          class="scale-150"
         />
+        <p class="text-sm uppercase font-bold my-4">django</p>
       </div>
     </div>
   </section>
@@ -123,29 +114,16 @@ export default {
       });
 
       //IMAGE
-      gsap.set("#cat-graphic", { y: 15 });
-      gsap.to("#cat-graphic", {
+      gsap.set("#django", { y: 15, opacity: 0 });
+      gsap.to("#django", {
         scrollTrigger: {
-          trigger: "#cat-graphic",
-          scrub: 1,
-          start: "top bottom",
-          end: "top top",
-        },
-        y: -150,
-        ease: "none",
-        duration: 3,
-      });
-
-      //IMAGE
-      gsap.set("#bass-clef", { y: 15 });
-      gsap.to("#bass-clef", {
-        scrollTrigger: {
-          trigger: "#bass-clef",
+          trigger: "#django",
           scrub: 1,
           start: "top bottom",
           end: "top top",
         },
         y: -200,
+        opacity: 1,
         ease: "none",
         duration: 3,
       });
