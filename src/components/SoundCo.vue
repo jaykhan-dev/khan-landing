@@ -1,20 +1,20 @@
 <template>
   <section id="" class="bg-zinc-900 text-orange-100">
     <div class="grid place-items-center p-2">
-      <div class="grid lg:grid-cols-2 gap-8 my-20 py-20 lg:w-1/2">
+      <div class="grid lg:grid-cols-2 gap-8 my-20 lg:w-1/2">
         <!-- COL -->
-        <div class="grid place-items-center">
+        <div class="" id="coin">
           <lottie-player
             src="https://assets10.lottiefiles.com/datafiles/TK6e5afd6uo1kv4/data.json"
             background="transparent"
             speed="1"
             loop
             autoplay
-            class="opacity-80"
+            class="opacity-80 lg:-translate-y-20"
           ></lottie-player>
         </div>
         <!-- COL -->
-        <div class="">
+        <div class="" id="bitcoin-text">
           <h2 class="uppercase font-bold">Blockchain</h2>
           <h2 class="text-6xl font-bold my-4">Bitcoin</h2>
           <p class="">
@@ -45,26 +45,43 @@
 </template>
 
 <script>
+import TroisJS from "./TroisJS.vue";
 // GSAP
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { onMounted } from "@vue/runtime-core";
 gsap.registerPlugin(ScrollTrigger);
 export default {
+  components: {
+    TroisJS,
+  },
   setup() {
     onMounted(() => {
-      //enso dragon
-      gsap.set("#", { opacity: 0, scale: 1.2, y: 0 });
-      gsap.to("#", {
+      //Bitcoin TEST
+      gsap.set("#bitcoin-text", { x: 200, opacity: 0 });
+      gsap.to("#bitcoin-text", {
         scrollTrigger: {
-          trigger: "#",
+          trigger: "#bitcoin-text",
           scrub: 1,
           start: "top bottom",
-          end: "top top",
+          end: "top center",
+        },
+        x: 0,
+        opacity: 1,
+        ease: "none",
+        duration: 3,
+      });
+
+      //COIN
+      gsap.set("#coin", { scale: 0.5 });
+      gsap.to("#coin", {
+        scrollTrigger: {
+          trigger: "#coin",
+          scrub: 1,
+          start: "top bottom",
+          end: "top center",
         },
         scale: 1,
-        opacity: 0.2,
-        y: 300,
         ease: "none",
         duration: 3,
       });

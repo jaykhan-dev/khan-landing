@@ -6,6 +6,8 @@ import CategoriesSection from "../components/CategoriesSection.vue";
 import TechStack from "../components/TechStack.vue";
 import SoundCo from "../components/SoundCo.vue";
 
+import TroisJS from "../components/TroisJS.vue";
+
 export default {
   name: "HomeView",
   components: {
@@ -15,6 +17,7 @@ export default {
     ScrollingText,
     TechStack,
     SoundCo,
+    TroisJS,
   },
   metaInfo: {
     title: "Jay Khan",
@@ -32,5 +35,6 @@ export default {
     <CategoriesSection />
     <TechStack />
     <SoundCo />
+    <TroisJS />
   </main>
 </template>

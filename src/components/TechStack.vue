@@ -82,7 +82,7 @@ export default {
         duration: 3,
       });
       //TECH GRID
-      gsap.set("#tech-stack-grid", { y: 0 });
+      gsap.set("#tech-stack-grid", { scale: 0.9, y: 0 });
       gsap.to("#tech-stack-grid", {
         scrollTrigger: {
           trigger: "#tech-stack-grid",
@@ -91,6 +91,7 @@ export default {
           end: "top top",
         },
         y: 20,
+        scale: 1,
         ease: "none",
         duration: 3,
       });

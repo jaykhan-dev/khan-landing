@@ -4,14 +4,13 @@
       class="grid place-items-center text-center py-20 bg-zinc-900 text-orange-100 p-2"
     >
       <h2 class="lg:text-8xl text-4xl lg:w-2/4 font-bold" id="about-text">
-        I'm a designer based in Canada. I create user interfaces and digital
-        assets.
+        I create user interfaces and digital assets.
       </h2>
     </div>
     <div class="flex justify-center">
       <div class="lg:w-1/2 p-2 grid lg:grid-cols-2 gap-4 place-items-center">
         <!-- COl -->
-        <div id="" class="grid place-items-end">
+        <div id="freelance" class="grid place-items-end">
           <div class="py-20" id="">
             <h3 class="font-bold uppercase my-4">Services</h3>
             <h2 class="text-6xl font-bold my-4">Design</h2>
@@ -114,9 +113,9 @@ export default {
   setup() {
     onMounted(() => {
       //external js file import
-      const plugin = document.createElement("script");
-      plugin.setAttribute("src", "/src/three/box.js");
-      document.head.appendChild(plugin);
+      // const plugin = document.createElement("script");
+      // plugin.setAttribute("src", "/src/three/box.js");
+      // document.head.appendChild(plugin);
       //IMAGE
       gsap.set("#freelance", { x: -500, opacity: 0 });
       gsap.to("#freelance", {
@@ -153,7 +152,7 @@ export default {
           trigger: "#categories",
           scrub: 1,
           start: "top bottom",
-          end: "top top",
+          end: "top center",
         },
         y: -20,
         opacity: 1,

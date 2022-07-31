@@ -29,6 +29,7 @@ app.use(VueSplide);
 app.use(Vue3Marquee);
 app.use(MotionPlugin);
 app.use(Plugin);
+
 //app.use(THREE);
 //app.use(VueMeta);
 app.mount("#app");
