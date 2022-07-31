@@ -1,66 +1,43 @@
 <template>
-  <section id="soundco-bg" class="bg-zinc-900">
-    <div class="grid place-items-center text-white">
-      <div class="soundco-content grid place-items-center">
-        <img
-          src="../assets/enso-dragon-white.svg"
-          alt=""
-          class="blur-md"
-          width="350"
-          id="enso-dragon"
-        />
-        <img
-          src="../assets/sound-logo-white.svg"
-          alt="Sound Logo white"
-          width="300"
-        />
-        <p class="text-2xl text-center text-gray-400 lg:w-1/2">
-          Blockchain apps. Click on the names below to see the prototypes.
-        </p>
-      </div>
-
-      <div class="my-8 soundco-content">
-        <div class="lg:text-4xl text-2xl text-green-500">
-          <p class="font-mono">def sound:</p>
-          <div class="flex">
-            <p class="ml-8">apps = [</p>
-            <div class="ml-2 flex flex-col">
-              <a
-                href="https://melange.pages.dev"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="font-mono hover:text-blue-500 duration-300"
-                >'Melange'</a
-              >
-              <a
-                href="https://songbookapp.pages.dev"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="font-mono hover:text-blue-500 duration-300"
-                >'SongBook'</a
-              >
-
-              <!-- <a
-                href="https://soundmoney.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="font-mono hover:text-blue-500 duration-300"
-                >'Sound Money'</a
-              > -->
-
-              <a class="-translate-x-3">]</a>
-            </div>
-          </div>
-        </div>
-        <div>
+  <section id="" class="bg-zinc-900 text-orange-100">
+    <div class="grid place-items-center p-2">
+      <div class="grid lg:grid-cols-2 gap-8 my-20 py-20 lg:w-1/2">
+        <!-- COL -->
+        <div class="grid place-items-center">
           <lottie-player
-            src="https://assets1.lottiefiles.com/private_files/lf30_h03e9pog.json"
+            src="https://assets10.lottiefiles.com/datafiles/TK6e5afd6uo1kv4/data.json"
             background="transparent"
             speed="1"
             loop
             autoplay
-            class="opacity-50"
+            class="opacity-80"
           ></lottie-player>
+        </div>
+        <!-- COL -->
+        <div class="">
+          <h2 class="uppercase font-bold">Blockchain</h2>
+          <h2 class="text-6xl font-bold my-4">Bitcoin</h2>
+          <p class="">
+            The internet is becoming more decentralized and P2P is a much more
+            efficient way of doing business. The new generation of apps are
+            being built with blockchain technology.
+          </p>
+          <div class="flex space-x-4 items-center my-4">
+            <a href="https://songbookapp.pages.dev">
+              <button
+                class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
+              >
+                SongBook
+              </button>
+            </a>
+            <a href="https://melange.pages.dev">
+              <button
+                class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
+              >
+                Melange
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -76,26 +53,11 @@ gsap.registerPlugin(ScrollTrigger);
 export default {
   setup() {
     onMounted(() => {
-      //IMAGE
-      gsap.set(".soundco-content", { y: 20, opacity: 0 });
-      gsap.to(".soundco-content", {
-        scrollTrigger: {
-          trigger: ".soundco-content",
-          scrub: 1,
-          start: "top bottom",
-          end: "top top",
-        },
-        y: -100,
-        opacity: 1,
-        ease: "none",
-        duration: 3,
-      });
-
       //enso dragon
-      gsap.set("#enso-dragon", { opacity: 0, scale: 1.2, y: 0 });
-      gsap.to("#enso-dragon", {
+      gsap.set("#", { opacity: 0, scale: 1.2, y: 0 });
+      gsap.to("#", {
         scrollTrigger: {
-          trigger: "#enso-dragon",
+          trigger: "#",
           scrub: 1,
           start: "top bottom",
           end: "top top",

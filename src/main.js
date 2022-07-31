@@ -5,6 +5,8 @@ import Vue3Lottie from "vue3-lottie";
 import VueSplide from "@splidejs/vue-splide";
 //import VueMeta from "vue-3-meta";
 
+//import * as THREE from "three";
+
 //MOTION
 import { MotionPlugin } from "@vueuse/motion";
 
@@ -27,5 +29,6 @@ app.use(VueSplide);
 app.use(Vue3Marquee);
 app.use(MotionPlugin);
 app.use(Plugin);
+//app.use(THREE);
 //app.use(VueMeta);
 app.mount("#app");
