@@ -74,7 +74,7 @@
         </a>
       </div>
       <div class="text-orange-100 lg:mt-0 mt-8">
-        <p>Made with Vue, Tailwind, GSAP</p>
+        <p>Made with Vue, Tailwind, GSAP, ThreeJS</p>
       </div>
     </div>
   </section>

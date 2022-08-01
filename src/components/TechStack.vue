@@ -47,6 +47,11 @@
           />
           <p class="text-sm uppercase font-bold my-4">django</p>
         </div>
+        <!-- COL -->
+        <div class="grid place-items-center" id="django">
+          <i class="fa-brands fa-wordpress text-7xl"></i>
+          <p class="text-sm uppercase font-bold my-4">wordpress</p>
+        </div>
       </div>
       <!-- PARALLAX BOX -->
       <div
