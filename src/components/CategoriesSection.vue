@@ -27,16 +27,6 @@
                   Contra | USDC
                 </button>
               </a>
-              <a
-                href="https://www.upwork.com/freelancers/~014489ba7a4c22b2bf?viewMode=1"
-                class=""
-              >
-                <button
-                  class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
-                >
-                  Upwork | USD
-                </button>
-              </a>
             </div>
           </div>
         </div>

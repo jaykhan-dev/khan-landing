@@ -30,13 +30,6 @@
                 SongBook
               </button>
             </a>
-            <a href="https://melange.pages.dev">
-              <button
-                class="p-2 rounded px-4 bg-gradient-to-r from-blue-500 to-purple-500 my-8 hover:bg-black duration-300 hover:scale-95 border w-full"
-              >
-                Melange
-              </button>
-            </a>
           </div>
         </div>
       </div>
