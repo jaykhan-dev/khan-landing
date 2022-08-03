@@ -16,7 +16,7 @@
             <h2 class="text-6xl font-bold my-4">Design</h2>
             <p class="">
               The most important ingredients for a good user experience and
-              aesthetics is simplicity and empathy
+              aesthetics are simplicity and empathy
             </p>
 
             <div class="flex space-x-4 my-4">
